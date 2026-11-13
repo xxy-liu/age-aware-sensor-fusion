@@ -1,0 +1,460 @@
+{
+  "status": "FROZEN_POST_EXPOSURE_CALIBRATION_SENSITIVITY",
+  "date": "2026-11-12",
+  "utc": "2026-11-12T12:23:00.220162+00:00",
+  "authorization": "Calibration-size and block-resampling analyses with fixed evaluation participants.",
+  "question": "固定模型和评价参与者时，校准人数、组成与记录预算如何影响迁移后的FPR和CAR？",
+  "scope": "Saved 20-joint-epoch CNN predictions; original allocations plus three dependent repartitions, reported separately; 1000 ms evaluation.",
+  "primary": "Original allocations, aware age-interpolated policy, target 15%; all four targets, all three readouts and both policies retained.",
+  "configurations": [
+    {
+      "id": "REALDISP_0",
+      "dataset": "REALDISP",
+      "split": 0,
+      "folder": "收尾实验",
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "cal_people": [
+        9,
+        10,
+        11
+      ],
+      "test_people": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "cal_name": "calibration_REALDISP_CNN_{seed}.npz",
+      "test_name": "evaluate_REALDISP_CNN_{seed}.npz",
+      "names": [
+        "aware_native",
+        "aware_zero",
+        "blind_native"
+      ]
+    },
+    {
+      "id": "REALDISP_1",
+      "dataset": "REALDISP",
+      "split": 1,
+      "folder": "人群复核/REALDISP/划分1",
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "cal_people": [
+        4,
+        12,
+        16
+      ],
+      "test_people": [
+        3,
+        6,
+        8,
+        13,
+        14,
+        17
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "REALDISP_2",
+      "dataset": "REALDISP",
+      "split": 2,
+      "folder": "人群复核/REALDISP/划分2",
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "cal_people": [
+        5,
+        9,
+        10
+      ],
+      "test_people": [
+        2,
+        4,
+        11,
+        12,
+        15,
+        16
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "REALDISP_3",
+      "dataset": "REALDISP",
+      "split": 3,
+      "folder": "人群复核/REALDISP/划分3",
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "cal_people": [
+        3,
+        8,
+        17
+      ],
+      "test_people": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        14
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "MHEALTH_0",
+      "dataset": "MHEALTH",
+      "split": 0,
+      "folder": "前瞻验证",
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "cal_people": [
+        8,
+        10
+      ],
+      "test_people": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "MHEALTH_1",
+      "dataset": "MHEALTH",
+      "split": 1,
+      "folder": "人群复核/MHEALTH/划分1",
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "cal_people": [
+        6,
+        8
+      ],
+      "test_people": [
+        1,
+        3,
+        4,
+        10
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "MHEALTH_2",
+      "dataset": "MHEALTH",
+      "split": 2,
+      "folder": "人群复核/MHEALTH/划分2",
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "cal_people": [
+        2,
+        5
+      ],
+      "test_people": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    },
+    {
+      "id": "MHEALTH_3",
+      "dataset": "MHEALTH",
+      "split": 3,
+      "folder": "人群复核/MHEALTH/划分3",
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "cal_people": [
+        4,
+        10
+      ],
+      "test_people": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "cal_name": "calibration_{seed}.npz",
+      "test_name": "test_{seed}.npz",
+      "names": [
+        "aware20_native",
+        "aware20_zero",
+        "blind20_native"
+      ]
+    }
+  ],
+  "targets": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "modes": [
+    "aware",
+    "zero",
+    "blind"
+  ],
+  "policies": [
+    "global",
+    "age_interpolated"
+  ],
+  "group_rule": "All nonempty subsets of the original calibration participants are evaluated within each partition; evaluation participants remain fixed.",
+  "full_reference": "Thresholds for each calibration subset use all its background endpoints with equal-participant and equal-anchor weights.",
+  "resampling": {
+    "repetitions": 1000,
+    "seed": 20261112,
+    "block_endpoints": 50,
+    "endpoint_spacing_seconds": 0.2,
+    "block_nominal_seconds": 10,
+    "rule": "Circular moving blocks of 50 endpoints within each uninterrupted background run. Starting endpoints are sampled uniformly over all background endpoints. Wrap only within the same run, including short runs; never connect different runs, records or action intervals. Each original background endpoint has the same expected sampling weight.",
+    "budget": "Common total number of background endpoints across all group sizes/compositions within each partition. Largest block count is floor(minimum background count / 50), rounded down to a multiple of 4*lcm(1,...,K).",
+    "fractions": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "draws": "With replacement within each selected participant; equal block counts per person; paired nested draws across budgets; shared draws across all fitted pipelines.",
+    "anchors": "Four timing anchors contribute equally to global thresholds. Age anchors use all query ages of the selected calibration people and remain fixed across that group's record resamples.",
+    "excluded": "No background endpoint is excluded from the resampling population. Repeated points from circular short runs are resampling weights, not independent observations."
+  },
+  "uncertainty": "2.5/97.5 percentiles describe conditional variation across 1000 draws and equally weighted exact calibration subsets. Evaluation people and fitted models stay fixed. These are not population confidence intervals, fresh cohorts, or independent replications.",
+  "aggregation": "The three seeds and two directions are averaged within each fixed evaluation participant, followed by equal averaging across participants. Metrics are FPR, CAR, signed target gap, participant mean absolute target deviation and worst participant FPR.",
+  "interpretation": "This controlled sensitivity analysis separates record budget from calibration-group composition/size within observed pools; it does not causally identify population shift or guarantee monotonic improvement.",
+  "inventory": {
+    "REALDISP_0": {
+      "total_blocks": 168,
+      "background_endpoints_per_anchor": 8400,
+      "circular_block_starts_per_person": {
+        "9": 15841,
+        "10": 16132,
+        "11": 8833
+      },
+      "background_endpoints_per_person": {
+        "9": 15841,
+        "10": 16132,
+        "11": 8833
+      }
+    },
+    "REALDISP_1": {
+      "total_blocks": 72,
+      "background_endpoints_per_anchor": 3600,
+      "circular_block_starts_per_person": {
+        "4": 3899,
+        "12": 8934,
+        "16": 5083
+      },
+      "background_endpoints_per_person": {
+        "4": 3899,
+        "12": 8934,
+        "16": 5083
+      }
+    },
+    "REALDISP_2": {
+      "total_blocks": 312,
+      "background_endpoints_per_anchor": 15600,
+      "circular_block_starts_per_person": {
+        "5": 17519,
+        "9": 15841,
+        "10": 16132
+      },
+      "background_endpoints_per_person": {
+        "5": 17519,
+        "9": 15841,
+        "10": 16132
+      }
+    },
+    "REALDISP_3": {
+      "total_blocks": 72,
+      "background_endpoints_per_anchor": 3600,
+      "circular_block_starts_per_person": {
+        "3": 4622,
+        "8": 10717,
+        "17": 5500
+      },
+      "background_endpoints_per_person": {
+        "3": 4622,
+        "8": 10717,
+        "17": 5500
+      }
+    },
+    "MHEALTH_0": {
+      "total_blocks": 128,
+      "background_endpoints_per_anchor": 6400,
+      "circular_block_starts_per_person": {
+        "8": 9562,
+        "10": 6452
+      },
+      "background_endpoints_per_person": {
+        "8": 9562,
+        "10": 6452
+      }
+    },
+    "MHEALTH_1": {
+      "total_blocks": 128,
+      "background_endpoints_per_anchor": 6400,
+      "circular_block_starts_per_person": {
+        "6": 6597,
+        "8": 9562
+      },
+      "background_endpoints_per_person": {
+        "6": 6597,
+        "8": 9562
+      }
+    },
+    "MHEALTH_2": {
+      "total_blocks": 168,
+      "background_endpoints_per_anchor": 8400,
+      "circular_block_starts_per_person": {
+        "2": 9495,
+        "5": 8576
+      },
+      "background_endpoints_per_person": {
+        "2": 9495,
+        "5": 8576
+      }
+    },
+    "MHEALTH_3": {
+      "total_blocks": 128,
+      "background_endpoints_per_anchor": 6400,
+      "circular_block_starts_per_person": {
+        "4": 8132,
+        "10": 6452
+      },
+      "background_endpoints_per_person": {
+        "4": 8132,
+        "10": 6452
+      }
+    }
+  },
+  "source_sha256": {
+    "03_实验记录\\收尾实验\\预测\\calibration_REALDISP_CNN_9101.npz": "a85bc94e6e5455cbc8d20da2263f0f815138f0f14d6c5d193a6dac9ed5087762",
+    "03_实验记录\\收尾实验\\预测\\evaluate_REALDISP_CNN_9101.npz": "f0c24a2c103e3f3ee1f26aceb29c9313a1489c0b18844ff20df8a4b42ad57d7b",
+    "03_实验记录\\收尾实验\\预测\\calibration_REALDISP_CNN_9102.npz": "1ef6e7fe23b02616a98f2d53c7206a6faab65b3e78cd23b710837b1737e90fd1",
+    "03_实验记录\\收尾实验\\预测\\evaluate_REALDISP_CNN_9102.npz": "50cec9bf1a87bdefaeba0a7ab85375f9b0f47b35ee7c236919f995cc68e5a14f",
+    "03_实验记录\\收尾实验\\预测\\calibration_REALDISP_CNN_9103.npz": "75889bf20447d00a8e07a69ec05f59f0e81f99d5c8b9e3e1e3d19c0973248b19",
+    "03_实验记录\\收尾实验\\预测\\evaluate_REALDISP_CNN_9103.npz": "e8d175db324bdc1810288b442ca6614df2aa7bba39465cb2cef05d150d7acebe",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\calibration_9101.npz": "532606b76ba53234e1237e8a8fcb4ecbc137b9d61de32885b16852a607e7dbf6",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\test_9101.npz": "74529df5c7f4b0b55f3349f766c442c0b69a4e48112100cf76ee636b9e752900",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\calibration_9102.npz": "96d678da8705187308f72c607a96a27711714a2d2a182e10fdc3fd3d0717b3b3",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\test_9102.npz": "a99069aa4645256b4959ec030e1037fc25b7837e89abca64aee49f9f746a6bcb",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\calibration_9103.npz": "21c778e1b68dc5a3b4da484bbd77a5fb946dece62257342787f46ecf71a3d5d3",
+    "03_实验记录\\人群复核\\REALDISP\\划分1\\预测\\test_9103.npz": "1bbcb9587f2c324fb6f0aa19575dc7e982537bc53ea1020a590d48eb51470810",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\calibration_9101.npz": "7c740a901a34111fe9a7c809b463dbbd40d760b2ed932479e0d051a237439fb0",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\test_9101.npz": "a9f23746fade124c0426f4841749c1d4fad1f97f5f6cef959b445c7295ef1464",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\calibration_9102.npz": "0c35f448856ce49069afa165ade90a106c403a6313454405f865a845179d0b24",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\test_9102.npz": "71445b4f3eb96105e2b8c860224b954249559a664aaf6ec9439a2aec573dc4b6",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\calibration_9103.npz": "e649b693c438d229aafc7b66fb7bb3b33761d7318f9c1524a3285dde5633b991",
+    "03_实验记录\\人群复核\\REALDISP\\划分2\\预测\\test_9103.npz": "b1d0f45ca9d305b772d402ee0a09e3794a61bd004e76f269424d32f6b8d4fb8f",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\calibration_9101.npz": "b8f876e1ed5c9d553197089ab92296928d3a0d901bb1dadaab6c4f63dab99f2d",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\test_9101.npz": "3527b9f04c9efad61af8b5e54ebce5f58109a0070d2d213a16bc1c7e8859b9c4",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\calibration_9102.npz": "93b4fa0192c70e64d275d788e68171082f2fea87df8ba58b2955563575a42a3f",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\test_9102.npz": "433abd49be8ee09e5c89a46d815211b8b3f79ac6c87aaf979a1a490920db6983",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\calibration_9103.npz": "e273ab7dfd67f96a1bb15a3ac77a0204c8667aafc959f3be9afe267d7dd56896",
+    "03_实验记录\\人群复核\\REALDISP\\划分3\\预测\\test_9103.npz": "ea5812e8dead0b6920fe7709f500319f5116029860574810c0e8c05fa6fb2985",
+    "03_实验记录\\前瞻验证\\预测\\calibration_9301.npz": "4c02d0e94ccc676c685175f9e844bcd443e11c415725297f863079dc207855cb",
+    "03_实验记录\\前瞻验证\\预测\\test_9301.npz": "7e0f6d0a92fd51ae34d2b482c6de30488d1627976b55caae9730fc153a1c821f",
+    "03_实验记录\\前瞻验证\\预测\\calibration_9302.npz": "4116e00e2f36568a6d11a5c668581819a6194933f5b3f7204fe7ffe3b771725e",
+    "03_实验记录\\前瞻验证\\预测\\test_9302.npz": "f7c3de3f5351f3aa9a23e331d61608778bfc32ae0611e335f649d1c62e417143",
+    "03_实验记录\\前瞻验证\\预测\\calibration_9303.npz": "67b2f1717c417f1ff5034bcd62b91d1fc655174af4756aa3cd88e0d784138bac",
+    "03_实验记录\\前瞻验证\\预测\\test_9303.npz": "a4781b63236ee77582138c5c4bd265a5a0e52802b996ba379566dd5ce0443fb0",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\calibration_9301.npz": "fc68290e47ee43998489767d593fbcc115836869b4ba15f7d214ae3f2998b19c",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\test_9301.npz": "5325b1ac77c346d91864ce2f6a725d6b1515d615f05dbdaa5589f2c8d74507fa",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\calibration_9302.npz": "6892c4ad0f8180cb96a1388b1caf1a65f9dc35bc7baf737b562b81b170c9f056",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\test_9302.npz": "6365caf1176b564577c64a27c72cc753d7a0a60ce1f8ebfe8bf1714a14c9922e",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\calibration_9303.npz": "3ab0f65adb150265b99755a54e60582ee6785d8baceae4656a932eb664d8d76c",
+    "03_实验记录\\人群复核\\MHEALTH\\划分1\\预测\\test_9303.npz": "b97eb6bf34ba1d88d316d0b4bad20288a4c017c4aed49181b28c65f5472a59c3",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\calibration_9301.npz": "185eaeaa019586e7374721e6788c3403907ab9b32653a89aa78af906739dbf4e",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\test_9301.npz": "7855e3c0972696e1ef18900302ab14afb4411481d0ca0f39ca55ce6c086975d2",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\calibration_9302.npz": "1bc858ea8accf3f831ae3c6e07e86066261558ea2576ce139dd59c982934233c",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\test_9302.npz": "8381e7721ee773edd435c8a02a1e6745a50735bcc16179a196082c18ea41db13",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\calibration_9303.npz": "1320fb1d30bbee15066990a7cf46418fe1dbfeb0660bd83d09368b51b0a970d0",
+    "03_实验记录\\人群复核\\MHEALTH\\划分2\\预测\\test_9303.npz": "b0599c8fabede6b5febb95936d8e0ea17239b757559d467983487946334d90a6",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\calibration_9301.npz": "91d65f4f74ec2e4f2bcf0200b1cf35bdaf48c9102934beadbe976f0abd4332ce",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\test_9301.npz": "b7bc99197459e2057cf1ec1c80aa6482fc66e91d1fec4dfdb43670acfc2345eb",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\calibration_9302.npz": "b9fea72758e6f8a8264b883af7565e1a5c275eb0fe402a5b316fc670691e0db9",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\test_9302.npz": "9818ec9ceef16f2ed05777f378d1c51ae93bb9398b516bd8dd3613acab284fa9",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\calibration_9303.npz": "e4a953df9db7a995f71468ba5f39ca964359519a6f97b64a1245e42285d91934",
+    "03_实验记录\\人群复核\\MHEALTH\\划分3\\预测\\test_9303.npz": "a1b4e3e19822c5ee72be16d924870d6977fd301396c2de4f3a349b6df8578af9"
+  },
+  "protected_chinese_sha256": {
+    "outputs\\论文\\数据年龄感知的传感器融合：阈值效应与校准迁移.tex": "c106d53d101288f1dfed7481d6e26bc24e6beed2e4bf62fe208595815a862c38",
+    "outputs\\论文\\数据年龄感知的传感器融合：阈值效应与校准迁移.pdf": "752542c9d2f396a515596bb0d49df441388f815b813948cd48ca2aade3aab8fb"
+  },
+  "analysis_code_sha256_at_freeze": "d9d29d55ae5021912d335cce76cb0b5fc4ebd470da92535670b4f0a1e55ca95c",
+  "sampling_sha256": {
+    "MHEALTH_0_抽样.npz": "99520ca216b654e2069f5a61833a0c83b74177aa598d2b0dfd23378d2c4ed21e",
+    "MHEALTH_1_抽样.npz": "7a7d567be9f397a7e82ddb2e4215e2c11db429d91a8763cae4112e539ded0d2e",
+    "MHEALTH_2_抽样.npz": "130efc0af93a1f014287e80f6cf1c96a421034fae2ac8f2721db534aab5fefbf",
+    "MHEALTH_3_抽样.npz": "d387345d9bd2df1b062b15d959a6882564b4282cae6c3ce7a2c05e6ff4bebae7",
+    "REALDISP_0_抽样.npz": "9ee173d559a8ca4fdcc9e3ace1afb92f90974530d76f2fa4133fd3a4ef1e8687",
+    "REALDISP_1_抽样.npz": "cb920cb6785cb135a8c567dc706926297bb53410dfb5eae67b726c9199e5c5de",
+    "REALDISP_2_抽样.npz": "9938352406ba66e30294843ddc79828b853fc4e31aa5402845f13d202b5b97ea",
+    "REALDISP_3_抽样.npz": "c02c5a3d2f16444846e86c2926bfe8fbd83e30afb28cba6c509e604e77a688bc"
+  },
+  "environment": {
+    "python": "3.10.10",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3"
+  }
+}

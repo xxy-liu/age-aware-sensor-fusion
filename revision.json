@@ -1,0 +1,268 @@
+{
+  "version": "1.0.5",
+  "date": "2026-11-13",
+  "original_archive_sha256": "8c8f5fc6c349272f2280014f020aef577e04963ad2d4463cfb4f1fd2b3c1cfec",
+  "scope": "Publication metadata and source checksums for the current package. Numerical results, original source checksum records and computational source files are unchanged.",
+  "files": {
+    "supporting/cache_analyses/分析.py": {
+      "before_sha256": "d1038a97dfe09ac2481c93e2255c511a195d302e1544eecf7a99b5635adca47d",
+      "after_sha256": "cd4854aefdf21f3a0ff818586ba60f2ef0d5db8f36a1384665b8e3896040a164",
+      "change": "Documentation and descriptive metadata only"
+    },
+    "supporting/cache_analyses/方案.json": {
+      "before_sha256": "14dd3e064791a0e0530c419a313384ee0060f770b60d2457a9ca3b68e5be05bb",
+      "after_sha256": "35698b117377ea26e1a6f263ee7a3e0d239a88d615bea29654e55f99f1dfc8e2",
+      "change": "Documentation and descriptive metadata only"
+    },
+    "supporting/calibration_resampling/分析.py": {
+      "before_sha256": "dfb2a78cf19e57111be2676268aa7f9f1cdb81f37a2662b612923d1bcee3b6a2",
+      "after_sha256": "df2f97c5703b9cc3d98ce783934b4fc0c6d4f3ee9224363f406f2747cf5aec7d",
+      "change": "Documentation and descriptive metadata only"
+    },
+    "supporting/calibration_resampling/方案.json": {
+      "before_sha256": "1eba1c335c2bcd85699bda90702317ea6349a5cf3822e1470cb22a81be2fccfd",
+      "after_sha256": "9ee583142c46f45f17eaa5a5dd88c7408f20a2d2d509f90edaa407f9a7366cc2",
+      "change": "Documentation and descriptive metadata only"
+    },
+    "supporting/cache_analyses/核验.py": {
+      "before_sha256": "f9598900eb08c7a32d34f38c45ffaf9f965e5597b2274c4cee393cbe001b365c",
+      "after_sha256": "e6d2ef7972d759175c18e12ae16bd9e6e20646a52cfb8b3fe1bd922e0d6cf150",
+      "change": "Numerical scope wording or original-record reference only"
+    },
+    "supporting/cache_analyses/核验.json": {
+      "before_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+      "after_sha256": "2441c6d9b23d464d63f9aad99b6a705414a92f62afea06572be30054aa402918",
+      "change": "Audit description, source reference or associated checksum only; numerical results unchanged"
+    },
+    "supporting/cache_analyses/完成.json": {
+      "before_sha256": "c5d5a05299e0dd1816100343921acdce613f34ee645df79dee28c64e0f37f3b3",
+      "after_sha256": "ee1935ee5977fa2345c44cea6267500de26ea7cc3bbb1d732ff1dbed511cef5d",
+      "change": "Audit description, source reference or associated checksum only; numerical results unchanged"
+    },
+    "supporting/calibration_resampling/核验.py": {
+      "before_sha256": "45f1939b8814d70a912e5107e3e3f53d54d0d70b3c2764a07dc5650c0e5062ce",
+      "after_sha256": "53441d745162de69f4def8822f63eed9448cc9f9d4a7fc6c1b35f6963e5ee403",
+      "change": "Documentation and descriptive metadata only"
+    },
+    "supporting/cache_analyses/原始核验.json": {
+      "before_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+      "after_sha256": "dca8d0e0d3c9bb7b020355ba601cdc9110312a8c8740b38b442cf4cfd2433961",
+      "change": "Audit description, source reference or associated checksum only; numerical results unchanged"
+    }
+  },
+  "historical_supplementary_audits_reexecuted": false,
+  "previous_archive_sha256": "58bb2fc38b6ec323dc0a6927fc14a9555dd9171ad3a5fc4e587afde96c204c31",
+  "original_audit_source": {
+    "path": "supporting/cache_analyses/原始核验.json",
+    "sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+    "earlier_source": {
+      "file": "supporting/cache_analyses/原始核验.json",
+      "sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+      "source": "supporting/cache_analyses/核验.json",
+      "source_release": "v1.0.1"
+    },
+    "role": "Unedited source containing the original contribution statement and numerical audit results."
+  },
+  "published_audit_record": {
+    "file": "supporting/cache_analyses/原始核验.json",
+    "sha256": "dca8d0e0d3c9bb7b020355ba601cdc9110312a8c8740b38b442cf4cfd2433961",
+    "source_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+    "scope_description_revised": true,
+    "numerical_results_unchanged": true
+  },
+  "prior_verification": {
+    "release": "v1.0.3",
+    "record": {
+      "previous_release_checks": {
+        "release": "v1.0.2",
+        "record": {
+          "source_ast_unchanged_except_authorization_strings": true,
+          "plans_unchanged_except_authorization": true,
+          "original_audit_records_preserved_byte_for_byte": true,
+          "replay_checks": {
+            "date": "2026-11-13",
+            "python": "3.10.19",
+            "numpy": "1.26.4",
+            "table2_displayed_values_matched": 18,
+            "table2_audit_rows_checked": 180,
+            "table2_audit_minimal_thresholds_checked": 12,
+            "table2_audit_maximum_absolute_error": 2.220446049250313e-16,
+            "cache_tables_checked": 9,
+            "resampling_tables_checked": 2,
+            "supplementary_tables_maximum_absolute_error": 0.0,
+            "scope": "Recomputation from the existing saved predictions; no training or new model inference.",
+            "executed_for_release": "v1.0.1"
+          },
+          "audit_ast_unchanged_except_scope_string": true,
+          "audit_result_values_unchanged": true,
+          "completion_reference_matches_original_audit": true,
+          "scope_revision_checks": {
+            "release": "v1.0.2",
+            "date": "2026-11-13",
+            "table2_displayed_values_matched": 18,
+            "audit_scope_fields_updated": 2,
+            "original_contribution_record_preserved": true,
+            "audit_numerical_expressions_unchanged": true,
+            "numerical_report_values_unchanged": true,
+            "completion_reference_verified": true
+          }
+        }
+      },
+      "current_release_checks": {
+        "release": "v1.0.3",
+        "date": "2026-11-13",
+        "python": "3.10.10",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "python_files_ast_checked": 7,
+        "ast_comparison_scope": "Module documentation and the seven enumerated descriptive string values; all other AST nodes match.",
+        "npz_files_byte_identical_to_v1_0_2": 84,
+        "csv_files_byte_identical_to_v1_0_2": 33,
+        "original_audit_byte_identical": true,
+        "threshold_configurations_unchanged": true,
+        "table2_displayed_values_matched": 18,
+        "table2_audit_rows_checked": 180,
+        "table2_audit_thresholds_checked": 12,
+        "table2_audit_maximum_absolute_error": 2.220446049250313e-16,
+        "cache_tables_checked": 9,
+        "resampling_tables_checked": 2,
+        "supplementary_tables_maximum_absolute_error": 0.0,
+        "scope": "Numerical checks using existing prediction caches. No training, new model inference, new resampling draws or independent scientific replication."
+      }
+    }
+  },
+  "documentation_revision_v1_0_3": {
+    "release": "v1.0.3",
+    "baseline_release": "v1.0.2",
+    "changed_files": {
+      "supporting/cache_analyses/分析.py": {
+        "previous_sha256": "8a417f7eef4d5f2d3fdc615bf8b1c13b1efd238ce2a7b6580ce512fb74403389",
+        "sha256": "cd4854aefdf21f3a0ff818586ba60f2ef0d5db8f36a1384665b8e3896040a164",
+        "bytes": 14834
+      },
+      "supporting/calibration_resampling/分析.py": {
+        "previous_sha256": "b8e96bd4cfe2fdafc2b23eca21e4de9b6ce3618ab8e4f0f9123e3f9c0fb498dd",
+        "sha256": "df2f97c5703b9cc3d98ce783934b4fc0c6d4f3ee9224363f406f2747cf5aec7d",
+        "bytes": 21985
+      },
+      "supporting/calibration_resampling/核验.py": {
+        "previous_sha256": "45f1939b8814d70a912e5107e3e3f53d54d0d70b3c2764a07dc5650c0e5062ce",
+        "sha256": "53441d745162de69f4def8822f63eed9448cc9f9d4a7fc6c1b35f6963e5ee403",
+        "bytes": 12997
+      },
+      "supporting/cache_analyses/方案.json": {
+        "previous_sha256": "ee6b8cf09bc3b81ad1e542e21989737890a7f725fae178c8a3646fb970d07fbc",
+        "sha256": "35698b117377ea26e1a6f263ee7a3e0d239a88d615bea29654e55f99f1dfc8e2",
+        "bytes": 7386
+      },
+      "supporting/calibration_resampling/方案.json": {
+        "previous_sha256": "03b0976aec05e5a817effac09ad83fe42cc6e6f236cb694246645097e09c1592",
+        "sha256": "9ee583142c46f45f17eaa5a5dd88c7408f20a2d2d509f90edaa407f9a7366cc2",
+        "bytes": 18856
+      }
+    },
+    "preserved_record": "supporting/cache_analyses/原始核验.json",
+    "preserved_record_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c"
+  },
+  "audit_description_revision": {
+    "release": "v1.0.4",
+    "baseline_release": "v1.0.3",
+    "changed_files": {
+      "supporting/cache_analyses/原始核验.json": {
+        "previous_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+        "sha256": "2960ee21207c47d967c3587d6ff826792456b8b91ae3f969c6cd5a2983eda917"
+      },
+      "supporting/cache_analyses/完成.json": {
+        "previous_sha256": "2412b4db13fae9b64d20781016d4d81cb191c6a19cff987f54e1e88ca38ed232",
+        "sha256": "6f5e2dc58d0c94bcaa403962137221f4ed5645c4543777b5679d3020bc6f73a1"
+      },
+      "supporting/cache_analyses/核验.json": {
+        "previous_sha256": "708ef48ea968abde8a8a4c0480328ea7534a7e850f4bebd185926ddf8b5ea0f4",
+        "sha256": "6dee173fafb6ea0d194e2baaec35cbee4c98cd9e02d256064cbdf4b7633aac74"
+      }
+    },
+    "source_record": "revision.json#/original_audit_source"
+  },
+  "verification": {
+    "previous_release_checks": {
+      "release": "v1.0.4",
+      "baseline_release": "v1.0.3",
+      "date": "2026-11-13",
+      "python": "3.10.10",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "python_files_byte_identical": 7,
+      "python_files_ast_identical": 7,
+      "npz_files_byte_identical": 84,
+      "csv_files_byte_identical": 33,
+      "thresholds_and_study_designs_byte_identical": true,
+      "audit_result_payloads_unchanged": true,
+      "audit_checksum_references_consistent": true,
+      "table2_displayed_values_matched": 18,
+      "table2_audit_rows_checked": 180,
+      "table2_audit_thresholds_checked": 12,
+      "table2_audit_maximum_absolute_error": 2.220446049250313e-16,
+      "cache_tables_checked": 9,
+      "resampling_tables_checked": 2,
+      "supplementary_tables_maximum_absolute_error": 0.0,
+      "scope": "Numerical checks using existing prediction caches. No training, new model inference, new resampling draws or independent scientific replication."
+    },
+    "current_release_checks": {
+      "release": "v1.0.5",
+      "baseline_release": "v1.0.4",
+      "date": "2026-11-13",
+      "python": "3.10.10",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "python_files_byte_identical": 7,
+      "python_files_ast_identical": 7,
+      "npz_files_byte_identical": 84,
+      "csv_files_byte_identical": 33,
+      "thresholds_and_study_designs_byte_identical": true,
+      "audit_result_payloads_unchanged": true,
+      "historical_source_urls_before": 7,
+      "historical_source_urls_after": 1,
+      "dataset_citations_and_licenses_unchanged": true,
+      "audit_checksum_references_consistent": true,
+      "table2_displayed_values_matched": 18,
+      "table2_audit_rows_checked": 180,
+      "table2_audit_thresholds_checked": 12,
+      "table2_audit_maximum_absolute_error": 2.220446049250313e-16,
+      "cache_tables_checked": 9,
+      "resampling_tables_checked": 2,
+      "supplementary_tables_maximum_absolute_error": 0.0,
+      "scope": "Numerical checks using existing prediction caches. No training, new model inference, new resampling draws or independent scientific replication."
+    }
+  },
+  "source_link_revision": {
+    "release": "v1.0.5",
+    "baseline_release": "v1.0.4",
+    "source_record": "revision.json#/original_audit_source",
+    "historical_source_urls_before": 7,
+    "historical_source_urls_after": 1,
+    "changed_files": {
+      "supporting/cache_analyses/原始核验.json": {
+        "previous_sha256": "2960ee21207c47d967c3587d6ff826792456b8b91ae3f969c6cd5a2983eda917",
+        "sha256": "9d27c9c898ddbfb8e245cf96c7777c4de4528573d846e919c18700e5b1102b5b"
+      },
+      "supporting/cache_analyses/核验.json": {
+        "previous_sha256": "6dee173fafb6ea0d194e2baaec35cbee4c98cd9e02d256064cbdf4b7633aac74",
+        "sha256": "cc6d77240926d0762bbe57017a8bafb2399e9329f9bf74875e2b4391d1c12917"
+      },
+      "supporting/cache_analyses/完成.json": {
+        "previous_sha256": "6f5e2dc58d0c94bcaa403962137221f4ed5645c4543777b5679d3020bc6f73a1",
+        "sha256": "bbcef344d2fbc5dd4107aed9cec37cc9f434d19d87e98d80b29d9e043f378b42"
+      }
+    },
+    "numerical_results_unchanged": true
+  },
+  "public_reference_cleanup": {
+    "date": "2026-11-13",
+    "scope": "Obsolete public Git history locators removed after snapshot republishing. Historical source checksums and numerical audit results are retained.",
+    "removed_git_locators": 10,
+    "numerical_source_files_unchanged": true,
+    "prediction_arrays_unchanged": true,
+    "historical_numerical_results_unchanged": true,
+    "historical_checks_reexecuted": false
+  }
+}

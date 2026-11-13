@@ -1,0 +1,6 @@
+{
+  "date": "2026-11-09",
+  "issue": "首次核验错误假定独立补强与收尾实验两次缓存的阈值逐位相同。首个差异为REALDISP seed9101 direction0 aware target0.10 nominal167ms，差约1.43e-6。",
+  "fix": "主分析、预定范围和冻结代码不变；独立核验增加两次缓存逐条身份、动作类别、默认预测及margin比较，历史阈值比较采用已有扩展协议的0.001分数重放容差，并记录实际最大误差。新缓存上的阈值仍要求独立算法逐位重建，15%阈值仍要求与同一收尾/前瞻缓存的历史JSON逐位一致。",
+  "status": "Audit implementation corrected; final outcome is recorded in 核验.json."
+}

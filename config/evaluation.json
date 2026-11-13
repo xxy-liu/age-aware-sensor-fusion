@@ -1,0 +1,1074 @@
+{
+  "scope": "Evaluation of existing cached model outputs. No training or sensor-data preprocessing is rerun.",
+  "date": "2026-11-12",
+  "groups": [
+    {
+      "id": "REALDISP_O_CNN",
+      "dataset": "REALDISP",
+      "partition": "O",
+      "architecture": "CNN",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "calibration": [
+        9,
+        10,
+        11
+      ],
+      "evaluation": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_O_CNN_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_O_CNN/calibration_9101.npz",
+          "evaluation": "data/REALDISP_O_CNN/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_O_CNN_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_O_CNN/calibration_9102.npz",
+          "evaluation": "data/REALDISP_O_CNN/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_O_CNN_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_O_CNN/calibration_9103.npz",
+          "evaluation": "data/REALDISP_O_CNN/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_O_CNN_metrics.csv",
+      "curves_reference": "reference/REALDISP_O_CNN_curves.csv"
+    },
+    {
+      "id": "REALDISP_O_LSTM",
+      "dataset": "REALDISP",
+      "partition": "O",
+      "architecture": "LSTM",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "calibration": [
+        9,
+        10,
+        11
+      ],
+      "evaluation": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_O_LSTM_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_O_LSTM/calibration_9101.npz",
+          "evaluation": "data/REALDISP_O_LSTM/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_O_LSTM_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_O_LSTM/calibration_9102.npz",
+          "evaluation": "data/REALDISP_O_LSTM/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_O_LSTM_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_O_LSTM/calibration_9103.npz",
+          "evaluation": "data/REALDISP_O_LSTM/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_O_LSTM_metrics.csv",
+      "curves_reference": "reference/REALDISP_O_LSTM_curves.csv"
+    },
+    {
+      "id": "REALDISP_O_DCL",
+      "dataset": "REALDISP",
+      "partition": "O",
+      "architecture": "DCL",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "calibration": [
+        9,
+        10,
+        11
+      ],
+      "evaluation": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_O_DCL_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_O_DCL/calibration_9101.npz",
+          "evaluation": "data/REALDISP_O_DCL/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_O_DCL_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_O_DCL/calibration_9102.npz",
+          "evaluation": "data/REALDISP_O_DCL/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_O_DCL_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_O_DCL/calibration_9103.npz",
+          "evaluation": "data/REALDISP_O_DCL/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_O_DCL_metrics.csv",
+      "curves_reference": "reference/REALDISP_O_DCL_curves.csv"
+    },
+    {
+      "id": "REALDISP_1_CNN",
+      "dataset": "REALDISP",
+      "partition": "1",
+      "architecture": "CNN",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        15,
+        2,
+        11,
+        10,
+        5,
+        9,
+        7,
+        1
+      ],
+      "calibration": [
+        4,
+        12,
+        16
+      ],
+      "evaluation": [
+        14,
+        17,
+        3,
+        8,
+        6,
+        13
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_1_CNN_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_1_CNN/calibration_9101.npz",
+          "evaluation": "data/REALDISP_1_CNN/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_1_CNN_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_1_CNN/calibration_9102.npz",
+          "evaluation": "data/REALDISP_1_CNN/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_1_CNN_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_1_CNN/calibration_9103.npz",
+          "evaluation": "data/REALDISP_1_CNN/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_1_CNN_metrics.csv",
+      "curves_reference": "reference/REALDISP_1_CNN_curves.csv"
+    },
+    {
+      "id": "REALDISP_2_CNN",
+      "dataset": "REALDISP",
+      "partition": "2",
+      "architecture": "CNN",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        7,
+        1,
+        14,
+        17,
+        3,
+        8,
+        6,
+        13
+      ],
+      "calibration": [
+        10,
+        5,
+        9
+      ],
+      "evaluation": [
+        4,
+        12,
+        16,
+        15,
+        2,
+        11
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_2_CNN_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_2_CNN/calibration_9101.npz",
+          "evaluation": "data/REALDISP_2_CNN/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_2_CNN_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_2_CNN/calibration_9102.npz",
+          "evaluation": "data/REALDISP_2_CNN/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_2_CNN_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_2_CNN/calibration_9103.npz",
+          "evaluation": "data/REALDISP_2_CNN/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_2_CNN_metrics.csv",
+      "curves_reference": "reference/REALDISP_2_CNN_curves.csv"
+    },
+    {
+      "id": "REALDISP_3_CNN",
+      "dataset": "REALDISP",
+      "partition": "3",
+      "architecture": "CNN",
+      "classes": 34,
+      "seeds": [
+        9101,
+        9102,
+        9103
+      ],
+      "train": [
+        6,
+        13,
+        4,
+        12,
+        16,
+        15,
+        2,
+        11
+      ],
+      "calibration": [
+        17,
+        3,
+        8
+      ],
+      "evaluation": [
+        10,
+        5,
+        9,
+        7,
+        1,
+        14
+      ],
+      "runs": [
+        {
+          "id": "REALDISP_3_CNN_9101",
+          "seed": 9101,
+          "calibration": "data/REALDISP_3_CNN/calibration_9101.npz",
+          "evaluation": "data/REALDISP_3_CNN/evaluation_9101.npz"
+        },
+        {
+          "id": "REALDISP_3_CNN_9102",
+          "seed": 9102,
+          "calibration": "data/REALDISP_3_CNN/calibration_9102.npz",
+          "evaluation": "data/REALDISP_3_CNN/evaluation_9102.npz"
+        },
+        {
+          "id": "REALDISP_3_CNN_9103",
+          "seed": 9103,
+          "calibration": "data/REALDISP_3_CNN/calibration_9103.npz",
+          "evaluation": "data/REALDISP_3_CNN/evaluation_9103.npz"
+        }
+      ],
+      "metrics_reference": "reference/REALDISP_3_CNN_metrics.csv",
+      "curves_reference": "reference/REALDISP_3_CNN_curves.csv"
+    },
+    {
+      "id": "MHEALTH_O_CNN",
+      "dataset": "MHEALTH",
+      "partition": "O",
+      "architecture": "CNN",
+      "classes": 13,
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "train": [
+        3,
+        5,
+        6,
+        1
+      ],
+      "calibration": [
+        8,
+        10
+      ],
+      "evaluation": [
+        9,
+        7,
+        4,
+        2
+      ],
+      "runs": [
+        {
+          "id": "MHEALTH_O_CNN_9301",
+          "seed": 9301,
+          "calibration": "data/MHEALTH_O_CNN/calibration_9301.npz",
+          "evaluation": "data/MHEALTH_O_CNN/evaluation_9301.npz"
+        },
+        {
+          "id": "MHEALTH_O_CNN_9302",
+          "seed": 9302,
+          "calibration": "data/MHEALTH_O_CNN/calibration_9302.npz",
+          "evaluation": "data/MHEALTH_O_CNN/evaluation_9302.npz"
+        },
+        {
+          "id": "MHEALTH_O_CNN_9303",
+          "seed": 9303,
+          "calibration": "data/MHEALTH_O_CNN/calibration_9303.npz",
+          "evaluation": "data/MHEALTH_O_CNN/evaluation_9303.npz"
+        }
+      ],
+      "metrics_reference": "reference/MHEALTH_O_CNN_metrics.csv",
+      "curves_reference": "reference/MHEALTH_O_CNN_curves.csv"
+    },
+    {
+      "id": "MHEALTH_1_CNN",
+      "dataset": "MHEALTH",
+      "partition": "1",
+      "architecture": "CNN",
+      "classes": 13,
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "train": [
+        7,
+        9,
+        2,
+        5
+      ],
+      "calibration": [
+        8,
+        6
+      ],
+      "evaluation": [
+        3,
+        1,
+        4,
+        10
+      ],
+      "runs": [
+        {
+          "id": "MHEALTH_1_CNN_9301",
+          "seed": 9301,
+          "calibration": "data/MHEALTH_1_CNN/calibration_9301.npz",
+          "evaluation": "data/MHEALTH_1_CNN/evaluation_9301.npz"
+        },
+        {
+          "id": "MHEALTH_1_CNN_9302",
+          "seed": 9302,
+          "calibration": "data/MHEALTH_1_CNN/calibration_9302.npz",
+          "evaluation": "data/MHEALTH_1_CNN/evaluation_9302.npz"
+        },
+        {
+          "id": "MHEALTH_1_CNN_9303",
+          "seed": 9303,
+          "calibration": "data/MHEALTH_1_CNN/calibration_9303.npz",
+          "evaluation": "data/MHEALTH_1_CNN/evaluation_9303.npz"
+        }
+      ],
+      "metrics_reference": "reference/MHEALTH_1_CNN_metrics.csv",
+      "curves_reference": "reference/MHEALTH_1_CNN_curves.csv"
+    },
+    {
+      "id": "MHEALTH_2_CNN",
+      "dataset": "MHEALTH",
+      "partition": "2",
+      "architecture": "CNN",
+      "classes": 13,
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "train": [
+        3,
+        1,
+        4,
+        10
+      ],
+      "calibration": [
+        2,
+        5
+      ],
+      "evaluation": [
+        8,
+        6,
+        7,
+        9
+      ],
+      "runs": [
+        {
+          "id": "MHEALTH_2_CNN_9301",
+          "seed": 9301,
+          "calibration": "data/MHEALTH_2_CNN/calibration_9301.npz",
+          "evaluation": "data/MHEALTH_2_CNN/evaluation_9301.npz"
+        },
+        {
+          "id": "MHEALTH_2_CNN_9302",
+          "seed": 9302,
+          "calibration": "data/MHEALTH_2_CNN/calibration_9302.npz",
+          "evaluation": "data/MHEALTH_2_CNN/evaluation_9302.npz"
+        },
+        {
+          "id": "MHEALTH_2_CNN_9303",
+          "seed": 9303,
+          "calibration": "data/MHEALTH_2_CNN/calibration_9303.npz",
+          "evaluation": "data/MHEALTH_2_CNN/evaluation_9303.npz"
+        }
+      ],
+      "metrics_reference": "reference/MHEALTH_2_CNN_metrics.csv",
+      "curves_reference": "reference/MHEALTH_2_CNN_curves.csv"
+    },
+    {
+      "id": "MHEALTH_3_CNN",
+      "dataset": "MHEALTH",
+      "partition": "3",
+      "architecture": "CNN",
+      "classes": 13,
+      "seeds": [
+        9301,
+        9302,
+        9303
+      ],
+      "train": [
+        8,
+        6,
+        7,
+        9
+      ],
+      "calibration": [
+        4,
+        10
+      ],
+      "evaluation": [
+        2,
+        5,
+        3,
+        1
+      ],
+      "runs": [
+        {
+          "id": "MHEALTH_3_CNN_9301",
+          "seed": 9301,
+          "calibration": "data/MHEALTH_3_CNN/calibration_9301.npz",
+          "evaluation": "data/MHEALTH_3_CNN/evaluation_9301.npz"
+        },
+        {
+          "id": "MHEALTH_3_CNN_9302",
+          "seed": 9302,
+          "calibration": "data/MHEALTH_3_CNN/calibration_9302.npz",
+          "evaluation": "data/MHEALTH_3_CNN/evaluation_9302.npz"
+        },
+        {
+          "id": "MHEALTH_3_CNN_9303",
+          "seed": 9303,
+          "calibration": "data/MHEALTH_3_CNN/calibration_9303.npz",
+          "evaluation": "data/MHEALTH_3_CNN/evaluation_9303.npz"
+        }
+      ],
+      "metrics_reference": "reference/MHEALTH_3_CNN_metrics.csv",
+      "curves_reference": "reference/MHEALTH_3_CNN_curves.csv"
+    }
+  ],
+  "background_class": 0,
+  "calibration_scenarios_ms": [
+    0,
+    167,
+    500,
+    1000
+  ],
+  "all_scenarios": [
+    "0",
+    "167",
+    "500",
+    "1000",
+    "333",
+    "750",
+    "jitter",
+    "step",
+    "burst"
+  ],
+  "targets": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "threshold_comparison": "strict margin > threshold; reject tied margins together",
+  "threshold_fitting": "Smallest observed score whose strictly-above weighted mass is <= target + 1e-12. Equal background weight per participant; global policies also weight four anchors equally.",
+  "local_match": "Per delay, match the native default FPR on calibration participants. Table II uses the fourth local anchor (nominal 1000 ms), not interpolation.",
+  "interpolation": "Linear interpolation by observed age; nearest endpoint beyond the anchors. Age anchors use all calibration queries with equal participant weights.",
+  "macro_f1": "All fixed classes including background; zero for zero-denominator classes.",
+  "aggregation": "Equal mean of three seeds and two directions within each participant, then equal mean across participants.",
+  "curve": "Within participant/seed/direction; admit tied margins together, linearly interpolate CAR at FPR 0.05/0.10/0.15/0.20. Retrospective coordinates use evaluation labels.",
+  "metadata_source_sha256": {
+    "03_实验记录/人群复核/方案.json": "50461fd4de2acbaeaba3f1494a22066daeb3600a82c31fc01b35b48b07d0eeb6",
+    "03_实验记录/独立补强/方案.json": "0e722248c18d340e01106115b58cf0b1512f56cc3a68879b5f16299f2b1a09eb",
+    "03_实验记录/收尾实验/阈值.json": "896cbebf38824e24f9809b1cac8f06d2d104e952cbc40699b6c0f5b61f65cafb",
+    "03_实验记录/人群复核/REALDISP/划分1/阈值.json": "930ff2838b24fb5302d91c8cbecfc34008275e816eaf3dbec042592f0b918671",
+    "03_实验记录/人群复核/REALDISP/划分2/阈值.json": "279b0f50e9673b202e8af699d3755cef939edd094b8d4c7ed85d6264ea827e89",
+    "03_实验记录/人群复核/REALDISP/划分3/阈值.json": "af87fa876482026ed68014e2ca798d6a3ae2c973565473a35eb7bb696cd76992",
+    "03_实验记录/前瞻验证/方案.json": "85472f9aaa299252fd5572bc8d4e8a76c0dd98d3b6a2e65f2ef37041c56d630b",
+    "03_实验记录/前瞻验证/阈值.json": "0cc5373c2d18753bf13ed8a0b66fa230263ab72bba2ca05ceeba96a147a79402",
+    "03_实验记录/人群复核/MHEALTH/划分1/阈值.json": "27fb94f9dc4712079fd49ad54f2de8933bce1331d738cf9b0ae8c07eba0751b5",
+    "03_实验记录/人群复核/MHEALTH/划分2/阈值.json": "5ac816a88e6ff29e3c07da872e427dcbe7b965ddf0ae029b3b636ef5602d7d9d",
+    "03_实验记录/人群复核/MHEALTH/划分3/阈值.json": "7417caa54dc5aff6e1d8d0703fdc1745ea40f4da1d636b78a3d48e11bc10a69d"
+  },
+  "provenance": [
+    {
+      "file": "data/REALDISP_O_CNN/calibration_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9101.npz",
+      "sha256": "a85bc94e6e5455cbc8d20da2263f0f815138f0f14d6c5d193a6dac9ed5087762",
+      "bytes": 22543311
+    },
+    {
+      "file": "data/REALDISP_O_CNN/evaluation_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9101.npz",
+      "sha256": "f0c24a2c103e3f3ee1f26aceb29c9313a1489c0b18844ff20df8a4b42ad57d7b",
+      "bytes": 94627637
+    },
+    {
+      "file": "data/REALDISP_O_CNN/calibration_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9102.npz",
+      "sha256": "1ef6e7fe23b02616a98f2d53c7206a6faab65b3e78cd23b710837b1737e90fd1",
+      "bytes": 22647415
+    },
+    {
+      "file": "data/REALDISP_O_CNN/evaluation_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9102.npz",
+      "sha256": "50cec9bf1a87bdefaeba0a7ab85375f9b0f47b35ee7c236919f995cc68e5a14f",
+      "bytes": 94338140
+    },
+    {
+      "file": "data/REALDISP_O_CNN/calibration_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9103.npz",
+      "sha256": "75889bf20447d00a8e07a69ec05f59f0e81f99d5c8b9e3e1e3d19c0973248b19",
+      "bytes": 22590192
+    },
+    {
+      "file": "data/REALDISP_O_CNN/evaluation_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9103.npz",
+      "sha256": "e8d175db324bdc1810288b442ca6614df2aa7bba39465cb2cef05d150d7acebe",
+      "bytes": 94122943
+    },
+    {
+      "file": "reference/REALDISP_O_CNN_metrics.csv",
+      "source": "03_实验记录/收尾实验/结果.csv",
+      "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_O_CNN_curves.csv",
+      "source": "03_实验记录/收尾实验/曲线.csv",
+      "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/calibration_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9101.npz",
+      "sha256": "d6849eddf82c599c63f6d320664dbb47737974579229f80c7574094dcc3054d1",
+      "bytes": 14929556
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/evaluation_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9101.npz",
+      "sha256": "74d4443a1643e68e4f3478004799fb210f3ca542d41d4a6d65b9c3e94494aa30",
+      "bytes": 61221400
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/calibration_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9102.npz",
+      "sha256": "8a3d5a2e5a2a5bfc8b0f88012a5f273cb1d5ba15462f7ba41438f69207d7d209",
+      "bytes": 14955233
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/evaluation_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9102.npz",
+      "sha256": "c0d7fcef9445fafe9dece92d1a51b0baf6df23affc942380935c289ef8ea2f4f",
+      "bytes": 61353033
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/calibration_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9103.npz",
+      "sha256": "dba897e001076d7c9cc9cb230076c02a7ea159f934ee20e87c22f0b1ef835782",
+      "bytes": 14949327
+    },
+    {
+      "file": "data/REALDISP_O_LSTM/evaluation_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9103.npz",
+      "sha256": "9a337f1e769875a9f7326050e281527f4e98e9658b8271293b7211d56477ecaa",
+      "bytes": 61222577
+    },
+    {
+      "file": "reference/REALDISP_O_LSTM_metrics.csv",
+      "source": "03_实验记录/收尾实验/结果.csv",
+      "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_O_LSTM_curves.csv",
+      "source": "03_实验记录/收尾实验/曲线.csv",
+      "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/REALDISP_O_DCL/calibration_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9101.npz",
+      "sha256": "3b4d4f3f80513712562da5d79203d7eda9afb2307ede4352cdac9a9abd433a70",
+      "bytes": 10547468
+    },
+    {
+      "file": "data/REALDISP_O_DCL/evaluation_9101.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9101.npz",
+      "sha256": "51d1219f15c4ae63b89cbfb3ae7c89136c2f9e4d026976263bd0022de763c035",
+      "bytes": 44520669
+    },
+    {
+      "file": "data/REALDISP_O_DCL/calibration_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9102.npz",
+      "sha256": "87c4b0441fb16d868381ee2ddf669821b3521aca605a32c00093343af275762b",
+      "bytes": 10447681
+    },
+    {
+      "file": "data/REALDISP_O_DCL/evaluation_9102.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9102.npz",
+      "sha256": "033fb319aa526a2cbe6cec7bd7f72bdfba022bfa240a9b4dc72b1d690bf9d9ce",
+      "bytes": 44190413
+    },
+    {
+      "file": "data/REALDISP_O_DCL/calibration_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9103.npz",
+      "sha256": "4e26f7932f6815105b0274078272fae2cae1b5a956c2c95811dcff0b09c1aba4",
+      "bytes": 10458104
+    },
+    {
+      "file": "data/REALDISP_O_DCL/evaluation_9103.npz",
+      "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9103.npz",
+      "sha256": "6f7371db947d9799e3774a77609ed559d221cf96bdf47cd9e7efa9047466719c",
+      "bytes": 44267136
+    },
+    {
+      "file": "reference/REALDISP_O_DCL_metrics.csv",
+      "source": "03_实验记录/收尾实验/结果.csv",
+      "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_O_DCL_curves.csv",
+      "source": "03_实验记录/收尾实验/曲线.csv",
+      "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/REALDISP_1_CNN/calibration_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9101.npz",
+      "sha256": "532606b76ba53234e1237e8a8fcb4ecbc137b9d61de32885b16852a607e7dbf6",
+      "bytes": 8018594
+    },
+    {
+      "file": "data/REALDISP_1_CNN/evaluation_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9101.npz",
+      "sha256": "74529df5c7f4b0b55f3349f766c442c0b69a4e48112100cf76ee636b9e752900",
+      "bytes": 22024835
+    },
+    {
+      "file": "data/REALDISP_1_CNN/calibration_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9102.npz",
+      "sha256": "96d678da8705187308f72c607a96a27711714a2d2a182e10fdc3fd3d0717b3b3",
+      "bytes": 8051910
+    },
+    {
+      "file": "data/REALDISP_1_CNN/evaluation_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9102.npz",
+      "sha256": "a99069aa4645256b4959ec030e1037fc25b7837e89abca64aee49f9f746a6bcb",
+      "bytes": 22091601
+    },
+    {
+      "file": "data/REALDISP_1_CNN/calibration_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9103.npz",
+      "sha256": "21c778e1b68dc5a3b4da484bbd77a5fb946dece62257342787f46ecf71a3d5d3",
+      "bytes": 8047190
+    },
+    {
+      "file": "data/REALDISP_1_CNN/evaluation_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9103.npz",
+      "sha256": "1bbcb9587f2c324fb6f0aa19575dc7e982537bc53ea1020a590d48eb51470810",
+      "bytes": 21959622
+    },
+    {
+      "file": "reference/REALDISP_1_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/结果.csv",
+      "source_sha256": "45441727a7321b33be2007bd7b0a44040e108363a11ff19dd306bb22a4ad8b58",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_1_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分1/曲线.csv",
+      "source_sha256": "54f302e0990b7da0b4e1d2874b1f48ff789f7d39b090a4c2429e06fa9b264983",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/REALDISP_2_CNN/calibration_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9101.npz",
+      "sha256": "7c740a901a34111fe9a7c809b463dbbd40d760b2ed932479e0d051a237439fb0",
+      "bytes": 16299350
+    },
+    {
+      "file": "data/REALDISP_2_CNN/evaluation_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9101.npz",
+      "sha256": "a9f23746fade124c0426f4841749c1d4fad1f97f5f6cef959b445c7295ef1464",
+      "bytes": 20880711
+    },
+    {
+      "file": "data/REALDISP_2_CNN/calibration_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9102.npz",
+      "sha256": "0c35f448856ce49069afa165ade90a106c403a6313454405f865a845179d0b24",
+      "bytes": 16302399
+    },
+    {
+      "file": "data/REALDISP_2_CNN/evaluation_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9102.npz",
+      "sha256": "71445b4f3eb96105e2b8c860224b954249559a664aaf6ec9439a2aec573dc4b6",
+      "bytes": 20912705
+    },
+    {
+      "file": "data/REALDISP_2_CNN/calibration_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9103.npz",
+      "sha256": "e649b693c438d229aafc7b66fb7bb3b33761d7318f9c1524a3285dde5633b991",
+      "bytes": 16109843
+    },
+    {
+      "file": "data/REALDISP_2_CNN/evaluation_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9103.npz",
+      "sha256": "b1d0f45ca9d305b772d402ee0a09e3794a61bd004e76f269424d32f6b8d4fb8f",
+      "bytes": 20749261
+    },
+    {
+      "file": "reference/REALDISP_2_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/结果.csv",
+      "source_sha256": "f3a6387307e2c8bc12c42804750d79148cfe012d423c4ac82752b9a75b5e7af1",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_2_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分2/曲线.csv",
+      "source_sha256": "85d797a98d953c3119e1fb904da34e668086a5f3d0d8ffcba4cd9b0e2103b64b",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/REALDISP_3_CNN/calibration_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9101.npz",
+      "sha256": "b8f876e1ed5c9d553197089ab92296928d3a0d901bb1dadaab6c4f63dab99f2d",
+      "bytes": 8601419
+    },
+    {
+      "file": "data/REALDISP_3_CNN/evaluation_9101.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9101.npz",
+      "sha256": "3527b9f04c9efad61af8b5e54ebce5f58109a0070d2d213a16bc1c7e8859b9c4",
+      "bytes": 28755901
+    },
+    {
+      "file": "data/REALDISP_3_CNN/calibration_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9102.npz",
+      "sha256": "93b4fa0192c70e64d275d788e68171082f2fea87df8ba58b2955563575a42a3f",
+      "bytes": 8616277
+    },
+    {
+      "file": "data/REALDISP_3_CNN/evaluation_9102.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9102.npz",
+      "sha256": "433abd49be8ee09e5c89a46d815211b8b3f79ac6c87aaf979a1a490920db6983",
+      "bytes": 28744450
+    },
+    {
+      "file": "data/REALDISP_3_CNN/calibration_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9103.npz",
+      "sha256": "e273ab7dfd67f96a1bb15a3ac77a0204c8667aafc959f3be9afe267d7dd56896",
+      "bytes": 8546317
+    },
+    {
+      "file": "data/REALDISP_3_CNN/evaluation_9103.npz",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9103.npz",
+      "sha256": "ea5812e8dead0b6920fe7709f500319f5116029860574810c0e8c05fa6fb2985",
+      "bytes": 28523874
+    },
+    {
+      "file": "reference/REALDISP_3_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/结果.csv",
+      "source_sha256": "42709bbc39da422bd6c66103f4d656086d07c5b99d1b2c16318a8df0acbcf592",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/REALDISP_3_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/REALDISP/划分3/曲线.csv",
+      "source_sha256": "01366b35159194728e42ae92055235da8ee57eb3f3938180c88b59755cb6f245",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/calibration_9301.npz",
+      "source": "03_实验记录/前瞻验证/预测/calibration_9301.npz",
+      "sha256": "4c02d0e94ccc676c685175f9e844bcd443e11c415725297f863079dc207855cb",
+      "bytes": 7487881
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/evaluation_9301.npz",
+      "source": "03_实验记录/前瞻验证/预测/test_9301.npz",
+      "sha256": "7e0f6d0a92fd51ae34d2b482c6de30488d1627976b55caae9730fc153a1c821f",
+      "bytes": 38231476
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/calibration_9302.npz",
+      "source": "03_实验记录/前瞻验证/预测/calibration_9302.npz",
+      "sha256": "4116e00e2f36568a6d11a5c668581819a6194933f5b3f7204fe7ffe3b771725e",
+      "bytes": 7514330
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/evaluation_9302.npz",
+      "source": "03_实验记录/前瞻验证/预测/test_9302.npz",
+      "sha256": "f7c3de3f5351f3aa9a23e331d61608778bfc32ae0611e335f649d1c62e417143",
+      "bytes": 38237784
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/calibration_9303.npz",
+      "source": "03_实验记录/前瞻验证/预测/calibration_9303.npz",
+      "sha256": "67b2f1717c417f1ff5034bcd62b91d1fc655174af4756aa3cd88e0d784138bac",
+      "bytes": 7496239
+    },
+    {
+      "file": "data/MHEALTH_O_CNN/evaluation_9303.npz",
+      "source": "03_实验记录/前瞻验证/预测/test_9303.npz",
+      "sha256": "a4781b63236ee77582138c5c4bd265a5a0e52802b996ba379566dd5ce0443fb0",
+      "bytes": 38218161
+    },
+    {
+      "file": "reference/MHEALTH_O_CNN_metrics.csv",
+      "source": "03_实验记录/前瞻验证/结果.csv",
+      "source_sha256": "2463576148efb2f0a94e44e172eee6033cc23291b1b16a7718ba9dc89d11c03a",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/MHEALTH_O_CNN_curves.csv",
+      "source": "03_实验记录/前瞻验证/曲线.csv",
+      "source_sha256": "56c9ecec1fcc22b0476d744908aa3fef7c7754d497a541ad3bbbe5eda3e190d8",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/calibration_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9301.npz",
+      "sha256": "fc68290e47ee43998489767d593fbcc115836869b4ba15f7d214ae3f2998b19c",
+      "bytes": 5749608
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/evaluation_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9301.npz",
+      "sha256": "5325b1ac77c346d91864ce2f6a725d6b1515d615f05dbdaa5589f2c8d74507fa",
+      "bytes": 12556340
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/calibration_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9302.npz",
+      "sha256": "6892c4ad0f8180cb96a1388b1caf1a65f9dc35bc7baf737b562b81b170c9f056",
+      "bytes": 5756869
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/evaluation_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9302.npz",
+      "sha256": "6365caf1176b564577c64a27c72cc753d7a0a60ce1f8ebfe8bf1714a14c9922e",
+      "bytes": 12628814
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/calibration_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9303.npz",
+      "sha256": "3ab0f65adb150265b99755a54e60582ee6785d8baceae4656a932eb664d8d76c",
+      "bytes": 5726886
+    },
+    {
+      "file": "data/MHEALTH_1_CNN/evaluation_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9303.npz",
+      "sha256": "b97eb6bf34ba1d88d316d0b4bad20288a4c017c4aed49181b28c65f5472a59c3",
+      "bytes": 12511615
+    },
+    {
+      "file": "reference/MHEALTH_1_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/结果.csv",
+      "source_sha256": "c7fa4f04c2ac65885452781a07b4720ce028c2ad72642e8f6b4f532309cc5508",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/MHEALTH_1_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分1/曲线.csv",
+      "source_sha256": "81a20f9e35b857b7bcd786eeabfb92deb09fc435d7871a856cd4c0fe8641a7aa",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/calibration_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9301.npz",
+      "sha256": "185eaeaa019586e7374721e6788c3403907ab9b32653a89aa78af906739dbf4e",
+      "bytes": 6288709
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/evaluation_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9301.npz",
+      "sha256": "7855e3c0972696e1ef18900302ab14afb4411481d0ca0f39ca55ce6c086975d2",
+      "bytes": 11716790
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/calibration_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9302.npz",
+      "sha256": "1bc858ea8accf3f831ae3c6e07e86066261558ea2576ce139dd59c982934233c",
+      "bytes": 6310371
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/evaluation_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9302.npz",
+      "sha256": "8381e7721ee773edd435c8a02a1e6745a50735bcc16179a196082c18ea41db13",
+      "bytes": 11752202
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/calibration_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9303.npz",
+      "sha256": "1320fb1d30bbee15066990a7cf46418fe1dbfeb0660bd83d09368b51b0a970d0",
+      "bytes": 6308357
+    },
+    {
+      "file": "data/MHEALTH_2_CNN/evaluation_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9303.npz",
+      "sha256": "b0599c8fabede6b5febb95936d8e0ea17239b757559d467983487946334d90a6",
+      "bytes": 11724701
+    },
+    {
+      "file": "reference/MHEALTH_2_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/结果.csv",
+      "source_sha256": "b3a6b51965e3cb3946ae8213d512867d26e108a1495946cb58a89a4c33189c7b",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/MHEALTH_2_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分2/曲线.csv",
+      "source_sha256": "9896901c7aa977fb6733ded3f8ce6e520df7624a3ffc13f581d93251d6ff26bf",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/calibration_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9301.npz",
+      "sha256": "91d65f4f74ec2e4f2bcf0200b1cf35bdaf48c9102934beadbe976f0abd4332ce",
+      "bytes": 5431806
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/evaluation_9301.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9301.npz",
+      "sha256": "b7bc99197459e2057cf1ec1c80aa6482fc66e91d1fec4dfdb43670acfc2345eb",
+      "bytes": 13484556
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/calibration_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9302.npz",
+      "sha256": "b9fea72758e6f8a8264b883af7565e1a5c275eb0fe402a5b316fc670691e0db9",
+      "bytes": 5372187
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/evaluation_9302.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9302.npz",
+      "sha256": "9818ec9ceef16f2ed05777f378d1c51ae93bb9398b516bd8dd3613acab284fa9",
+      "bytes": 13341545
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/calibration_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9303.npz",
+      "sha256": "e4a953df9db7a995f71468ba5f39ca964359519a6f97b64a1245e42285d91934",
+      "bytes": 5462570
+    },
+    {
+      "file": "data/MHEALTH_3_CNN/evaluation_9303.npz",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9303.npz",
+      "sha256": "a1b4e3e19822c5ee72be16d924870d6977fd301396c2de4f3a349b6df8578af9",
+      "bytes": 13551041
+    },
+    {
+      "file": "reference/MHEALTH_3_CNN_metrics.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/结果.csv",
+      "source_sha256": "944f1b58776f18bd5e3bde3c7e7930482970a8c950d3113e6676b8d42a63f213",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    },
+    {
+      "file": "reference/MHEALTH_3_CNN_curves.csv",
+      "source": "03_实验记录/人群复核/MHEALTH/划分3/曲线.csv",
+      "source_sha256": "0b2b21ab5322b37f548e8426a8f52991199073be3d0572156ab5eb643fde4fe3",
+      "transformation": "CSV selection by dataset and architecture; numeric text retained."
+    }
+  ]
+}

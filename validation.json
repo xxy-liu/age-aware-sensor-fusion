@@ -1,0 +1,336 @@
+{
+  "scope": "Computational checks using saved predictions; no independent scientific replication.",
+  "table2": {
+    "status": "PASS",
+    "table": 2,
+    "displayed_values_matched": 18,
+    "run_rows": 180,
+    "participant_rows": 30,
+    "threshold_checks": [
+      {
+        "run": "REALDISP_O_CNN_9101",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.04907687514519987,
+            "threshold": -0.6024980545043945,
+            "achieved": 0.049075592626578
+          },
+          {
+            "direction": 1,
+            "target": 0.04358632583259676,
+            "threshold": -0.42372560501098633,
+            "achieved": 0.04356914270693871
+          }
+        ]
+      },
+      {
+        "run": "REALDISP_O_CNN_9102",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.05203809696699817,
+            "threshold": -0.6475334167480469,
+            "achieved": 0.052035531929754436
+          },
+          {
+            "direction": 1,
+            "target": 0.04228113058125696,
+            "threshold": -0.3539853096008301,
+            "achieved": 0.042271803276978825
+          }
+        ]
+      },
+      {
+        "run": "REALDISP_O_CNN_9103",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.05579364476923092,
+            "threshold": -0.8286747932434082,
+            "achieved": 0.055789976065913044
+          },
+          {
+            "direction": 1,
+            "target": 0.04373418279505139,
+            "threshold": -0.2963860034942627,
+            "achieved": 0.04371124246290877
+          }
+        ]
+      },
+      {
+        "run": "MHEALTH_O_CNN_9301",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.03851173656625154,
+            "threshold": 0.051715850830078125,
+            "achieved": 0.0384808907909784
+          },
+          {
+            "direction": 1,
+            "target": 0.041309090164065164,
+            "threshold": -0.1770777702331543,
+            "achieved": 0.04128200488267713
+          }
+        ]
+      },
+      {
+        "run": "MHEALTH_O_CNN_9302",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.050982036769071835,
+            "threshold": 0.05667877197265625,
+            "achieved": 0.0509549514876838
+          },
+          {
+            "direction": 1,
+            "target": 0.05659178594023953,
+            "threshold": -0.1406078338623047,
+            "achieved": 0.05659178594023953
+          }
+        ]
+      },
+      {
+        "run": "MHEALTH_O_CNN_9303",
+        "checks": [
+          {
+            "direction": 0,
+            "target": 0.057173025380869956,
+            "threshold": 0.09380006790161133,
+            "achieved": 0.05714782034642448
+          },
+          {
+            "direction": 1,
+            "target": 0.061787378304258456,
+            "threshold": -0.1131124496459961,
+            "achieved": 0.06176217326981298
+          }
+        ]
+      }
+    ],
+    "aggregation": "Equal mean of three seeds and two directions within each participant, then equal mean across participants."
+  },
+  "all_groups": [
+    {
+      "group": "REALDISP_O_CNN",
+      "metrics": 21168,
+      "curves": 3888,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "REALDISP_O_LSTM",
+      "metrics": 12348,
+      "curves": 2268,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "REALDISP_O_DCL",
+      "metrics": 8820,
+      "curves": 1620,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "REALDISP_1_CNN",
+      "metrics": 3456,
+      "curves": 864,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "REALDISP_2_CNN",
+      "metrics": 3456,
+      "curves": 864,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "REALDISP_3_CNN",
+      "metrics": 3456,
+      "curves": 864,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "MHEALTH_O_CNN",
+      "metrics": 10584,
+      "curves": 1944,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "MHEALTH_1_CNN",
+      "metrics": 2304,
+      "curves": 576,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "MHEALTH_2_CNN",
+      "metrics": 2304,
+      "curves": 576,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "group": "MHEALTH_3_CNN",
+      "metrics": 2304,
+      "curves": 576,
+      "maximum_absolute_error": 0.0
+    }
+  ],
+  "independent_table2": {
+    "status": "PASS",
+    "python": "3.10.19",
+    "numpy": "1.26.4",
+    "allocations_checked": 10,
+    "metric_rows_checked": 180,
+    "maximum_absolute_error": 2.220446049250313e-16,
+    "threshold_checks": [
+      {
+        "run": "REALDISP_O_CNN_9101",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "REALDISP_O_CNN_9101",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "REALDISP_O_CNN_9102",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "REALDISP_O_CNN_9102",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "REALDISP_O_CNN_9103",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "REALDISP_O_CNN_9103",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9301",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9301",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9302",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9302",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9303",
+        "direction": 0,
+        "feasible": true,
+        "minimal": true
+      },
+      {
+        "run": "MHEALTH_O_CNN_9303",
+        "direction": 1,
+        "feasible": true,
+        "minimal": true
+      }
+    ],
+    "scope": "Independent marginal-count metric calculation and observed-score threshold minimality; no new inference."
+  },
+  "additional_cache_analysis": {
+    "status": "PASS",
+    "analysis": "cache",
+    "checks": [
+      {
+        "file": "交叉读出.csv",
+        "rows": 8640,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "交叉读出汇总.csv",
+        "rows": 1728,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "交叉读出逐人.csv",
+        "rows": 1440,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "校准迁移.csv",
+        "rows": 12960,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "校准迁移汇总.csv",
+        "rows": 2592,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "校准迁移逐人.csv",
+        "rows": 2160,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "预测变化.csv",
+        "rows": 1080,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "预测变化汇总.csv",
+        "rows": 792,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "预测变化逐人.csv",
+        "rows": 180,
+        "maximum_absolute_error": 0.0
+      }
+    ],
+    "elapsed_seconds": 18.600982699997985,
+    "scope": "Recomputed calibration thresholds, query changes, target transfer and crossed readouts from prediction caches."
+  },
+  "calibration_resampling_evaluation": {
+    "status": "PASS",
+    "analysis": "resampling",
+    "checks": [
+      {
+        "file": "汇总.csv",
+        "rows": 1920,
+        "maximum_absolute_error": 0.0
+      },
+      {
+        "file": "组合.csv",
+        "rows": 3840,
+        "maximum_absolute_error": 0.0
+      }
+    ],
+    "elapsed_seconds": 32.43559209999876,
+    "scope": "Recomputed evaluation rates and summaries from the frozen resampling thresholds; no new block draws or threshold fitting."
+  },
+  "tested_environment": {
+    "python": "3.10.19",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "discarded_calibration_only_outputs": [
+    "REALDISP_0",
+    "REALDISP_1"
+  ],
+  "previous_sampling": {
+    "repetitions": 1000,
+    "seed": 20261112,
+    "block_endpoints": 50,
+    "endpoint_spacing_seconds": 0.2,
+    "block_nominal_seconds": 10,
+    "rule": "Complete nonoverlapping 50-endpoint blocks inside uninterrupted background runs; no joining across row discontinuities, known records, or action intervals.",
+    "budget": "Common total number of background blocks across all group sizes/compositions within each partition. Largest budget is the minimum eligible block count rounded down to a multiple of 4*lcm(1,...,K).",
+    "fractions": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "draws": "With replacement within each selected participant; equal block counts per person; paired nested draws across budgets; shared draws across all fitted pipelines.",
+    "anchors": "Four timing anchors contribute equally to global thresholds. Age anchors use all query ages of the selected calibration people and remain fixed across that group's record resamples.",
+    "excluded": "Incomplete background blocks are excluded only from block resampling; full-data references retain all original background endpoints."
+  },
+  "reason": "Calibration metadata showed complete-block filtering excluded short background intervals. Replaced it with circular within-run moving blocks so every background endpoint has equal expected sampling weight; evaluation arrays had not been opened in the new analysis.",
+  "utc": "2026-11-12T12:22:56.8022179Z",
+  "previous_plan_sha256": "38D8B87AAE62D9756EAB4E7F79149079815E3610763C326A6455130295410D12",
+  "evaluation_results_used_for_repair": false,
+  "code_repairs": [
+    {
+      "utc": "2026-11-12T12:36:57.175863+00:00",
+      "reason": "Independent reconstruction detected float32 accumulation in mean-age anchors (original REALDISP maximum discrepancy 9.641e-6 s). Recompute all group anchors using float64; protocol, block draws and score thresholds unchanged.",
+      "from_sha256": "d9d29d55ae5021912d335cce76cb0b5fc4ebd470da92535670b4f0a1e55ca95c",
+      "to_sha256": "dfb2a78cf19e57111be2676268aa7f9f1cdb81f37a2662b612923d1bcee3b6a2",
+      "evaluation_already_computed": true,
+      "threshold_array_sha256_unchanged": {
+        "REALDISP_0": "754d8c3aca28563edd0456cf1f8dce16cae1a160d98b9f1a52c7dcf62d7594bb",
+        "REALDISP_1": "fad840ea4b34e529f456201a8c83e8ee0f25cf63fc4ea8a3231a10bbaf7d790e",
+        "REALDISP_2": "a94d6acd64d799d132e8363417ad12ed878b3d89952d842a3a585d3a892499c0",
+        "REALDISP_3": "aaddbe559286f43e98470fe3add0d3e1e3e43115086d5caa1d30a3b38c7ea826",
+        "MHEALTH_0": "4e6a135841e48d5649ff7855739021d9d6219ae7dac502e1355edb1f6486d6ff",
+        "MHEALTH_1": "d513db0d9af55ceb62b902c4c9d1e7921c4b507e40422f957ad6be86be342539",
+        "MHEALTH_2": "89847b958c779833f45c095d1770fa85fc6d3ec5649604e53edc5584f1395998",
+        "MHEALTH_3": "5d6c268f43b0a2ef8ff662cc312b7141a92c731216b798d64743326456a61ca0"
+      },
+      "maximum_anchor_correction_seconds": {
+        "REALDISP_0": 1.8104910850524902e-05,
+        "REALDISP_1": 1.7642974853515625e-05,
+        "REALDISP_2": 2.1159648895263672e-05,
+        "REALDISP_3": 1.8551945686340332e-05,
+        "MHEALTH_0": 1.8909573554992676e-05,
+        "MHEALTH_1": 1.8909573554992676e-05,
+        "MHEALTH_2": 1.9073486328125e-05,
+        "MHEALTH_3": 2.1383166313171387e-05
+      }
+    }
+  ]
+}

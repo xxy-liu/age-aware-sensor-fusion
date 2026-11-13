@@ -1,0 +1,126 @@
+[
+  {
+    "group": [
+      4
+    ],
+    "k": 1,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 0,
+    "count": 1
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 1,
+    "count": 1
+  },
+  {
+    "group": [
+      4,
+      10
+    ],
+    "k": 2,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 2,
+    "count": 1
+  },
+  {
+    "group": [
+      4
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 3,
+    "count": 1000
+  },
+  {
+    "group": [
+      4
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 1003,
+    "count": 1000
+  },
+  {
+    "group": [
+      4
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 2003,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 3003,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 4003,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 5003,
+    "count": 1000
+  },
+  {
+    "group": [
+      4,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 6003,
+    "count": 1000
+  },
+  {
+    "group": [
+      4,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 7003,
+    "count": 1000
+  },
+  {
+    "group": [
+      4,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 8003,
+    "count": 1000
+  }
+]

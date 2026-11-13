@@ -1,0 +1,96 @@
+{
+  "status": "PASS_COMPUTATIONAL_AUDIT",
+  "scope": "Numerical consistency checks using a separate implementation; no independent scientific replication.",
+  "source_files_unchanged": 21,
+  "new_model_training": false,
+  "new_model_inference": false,
+  "raw_sensor_access": false,
+  "new_threshold_checks": 720,
+  "historical_REALDISP_threshold_matches": 192,
+  "historical_threshold_max_difference": 2.384185791015625e-06,
+  "historical_threshold_nonidentical": 14,
+  "historical_cache_replay": [
+    {
+      "seed": 9101,
+      "role": "cal",
+      "max_margin_difference": 7.718801498413086e-06,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "d2ca1d7d801411288a4609f279d6c174ea204d3436e6804238fc393e8ea98383"
+    },
+    {
+      "seed": 9101,
+      "role": "test",
+      "max_margin_difference": 0.0,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "6c545c525812d3f718432bd84eb95da50b3bfceb3b21c080ee08e98f0e731b20"
+    },
+    {
+      "seed": 9102,
+      "role": "cal",
+      "max_margin_difference": 7.867813110351562e-06,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "c2eed0a9658108b2508d3097cbaf4e1a5a568f8fcd59c4a34a6a6c82dae13ba8"
+    },
+    {
+      "seed": 9102,
+      "role": "test",
+      "max_margin_difference": 0.0,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "5f69236b7f437425456a2f323ffce241d6361c6e3952469735dc66ff159d2b21"
+    },
+    {
+      "seed": 9103,
+      "role": "cal",
+      "max_margin_difference": 6.67572021484375e-06,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "e662366036c89ddf5b6fdc5079bd4b222ec9241c48eef06f7f4bbcbfa9540960"
+    },
+    {
+      "seed": 9103,
+      "role": "test",
+      "max_margin_difference": 0.0,
+      "action_differences": 0,
+      "default_prediction_differences": 0,
+      "historical_file_sha256": "48cf9115697fe91c315671924348ae80ab4e0dc7675ee15e3a935550fa3642de"
+    }
+  ],
+  "prediction_change_rows_checked": 1080,
+  "metric_rows_checked": 21600,
+  "summary_rows_checked": 5112,
+  "max_metric_error": 0.0,
+  "max_aggregation_error": 0.0,
+  "max_bootstrap_error": 3.3306690738754696e-16,
+  "target_grid_complete": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "audit_script_sha256": "f9598900eb08c7a32d34f38c45ffaf9f965e5597b2274c4cee393cbe001b365c",
+  "outputs_sha256": {
+    "交叉读出.csv": "e5d8236e0510b445dc84d48214fc600e2b8116b47eff23350dd78e257eca6cac",
+    "交叉读出汇总.csv": "86e15edf4102e27fe60982349294e8ec0309b100e3e1fa984087c70a49c699bc",
+    "交叉读出逐人.csv": "396503349c9b2a3c60750b18fbbcb987f4275876a27227702654249e061aa906",
+    "校准迁移.csv": "2c38a1fae785d00caa257440e0d4400399f60a4f6225561bb79e9219f51f1873",
+    "校准迁移汇总.csv": "2267df8b26b241bb3474706be37921fc36251d4ed4a5fdb595a38eee2130413f",
+    "校准迁移逐人.csv": "90e4b25fe1cfaab7fd9919139469625dc6de2614ae792998a05e9b0142ac6b01",
+    "预测变化.csv": "db3b0bfcd8aa354636c2dc6b049375ee6443fb81a5bfae2e1d48d3f2ce3f1f76",
+    "预测变化汇总.csv": "1f7da8115d08524f2c03c4aebdc3d3f43c5ba1d2b2ff5b2df1c800fa5e14f4d0",
+    "预测变化逐人.csv": "28b357206d360687d3173ade9714ff87356b914837fb36908846f119044802e9",
+    "阈值.json": "ab062e37569ec167a570d6c06ce66fcb0ef15a989855e06e5ee27b67a02385ea",
+    "阈值冻结.json": "bc77c59e9306c87906c41248b8878a112d146b804e605a5c339230b4a930de07"
+  },
+  "description_revision": {
+    "date": "2026-11-13",
+    "change": "Scope description revised; numerical audit results unchanged.",
+    "source_path": "supporting/cache_analyses/原始核验.json",
+    "source_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+    "numerical_results_unchanged": true,
+    "source_record": "revision.json#/original_audit_source"
+  }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "group": [
+      5
+    ],
+    "k": 1,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 0,
+    "count": 1
+  },
+  {
+    "group": [
+      9
+    ],
+    "k": 1,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 1,
+    "count": 1
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 2,
+    "count": 1
+  },
+  {
+    "group": [
+      5,
+      9
+    ],
+    "k": 2,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 3,
+    "count": 1
+  },
+  {
+    "group": [
+      5,
+      10
+    ],
+    "k": 2,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 4,
+    "count": 1
+  },
+  {
+    "group": [
+      9,
+      10
+    ],
+    "k": 2,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 5,
+    "count": 1
+  },
+  {
+    "group": [
+      5,
+      9,
+      10
+    ],
+    "k": 3,
+    "kind": "full",
+    "fraction": 1.0,
+    "start": 6,
+    "count": 1
+  },
+  {
+    "group": [
+      5
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 7,
+    "count": 1000
+  },
+  {
+    "group": [
+      5
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 1007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 2007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 3007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 4007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 5007,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 6007,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 7007,
+    "count": 1000
+  },
+  {
+    "group": [
+      10
+    ],
+    "k": 1,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 8007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 9007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 10007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 11007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 12007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 13007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 14007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 15007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 16007,
+    "count": 1000
+  },
+  {
+    "group": [
+      9,
+      10
+    ],
+    "k": 2,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 17007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9,
+      10
+    ],
+    "k": 3,
+    "kind": "block",
+    "fraction": 0.25,
+    "start": 18007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9,
+      10
+    ],
+    "k": 3,
+    "kind": "block",
+    "fraction": 0.5,
+    "start": 19007,
+    "count": 1000
+  },
+  {
+    "group": [
+      5,
+      9,
+      10
+    ],
+    "k": 3,
+    "kind": "block",
+    "fraction": 1.0,
+    "start": 20007,
+    "count": 1000
+  }
+]

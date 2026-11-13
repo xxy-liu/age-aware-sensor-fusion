@@ -1,0 +1,186 @@
+{
+  "status": "PASS_COMPUTATIONAL_AUDIT",
+  "utc": "2026-11-12T12:40:45.205788+00:00",
+  "scope": "Recorded post-exposure sensitivity analysis only; no independent replication, causal shift attribution or population-level confidence guarantee.",
+  "checks": {
+    "source_files": 48,
+    "calibration_values_reconstructed": 60480,
+    "direct_evaluation_rates_reconstructed": 248832,
+    "original_reference_rate_matches": 480,
+    "background_endpoints_verified": 193881
+  },
+  "summary_rows_checked": 1920,
+  "group_summary_rows_checked": 3840,
+  "summary_max_absolute_error": 2.220446049250313e-16,
+  "cohorts": {
+    "REALDISP_0": {
+      "evaluation_people": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "calibration_people": [
+        9,
+        10,
+        11
+      ],
+      "unique_calibration_subsets": 7,
+      "resample_rows": 21000,
+      "background_budget_per_anchor": 8400
+    },
+    "REALDISP_1": {
+      "evaluation_people": [
+        3,
+        6,
+        8,
+        13,
+        14,
+        17
+      ],
+      "calibration_people": [
+        4,
+        12,
+        16
+      ],
+      "unique_calibration_subsets": 7,
+      "resample_rows": 21000,
+      "background_budget_per_anchor": 3600
+    },
+    "REALDISP_2": {
+      "evaluation_people": [
+        2,
+        4,
+        11,
+        12,
+        15,
+        16
+      ],
+      "calibration_people": [
+        5,
+        9,
+        10
+      ],
+      "unique_calibration_subsets": 7,
+      "resample_rows": 21000,
+      "background_budget_per_anchor": 15600
+    },
+    "REALDISP_3": {
+      "evaluation_people": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        14
+      ],
+      "calibration_people": [
+        3,
+        8,
+        17
+      ],
+      "unique_calibration_subsets": 7,
+      "resample_rows": 21000,
+      "background_budget_per_anchor": 3600
+    },
+    "MHEALTH_0": {
+      "evaluation_people": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "calibration_people": [
+        8,
+        10
+      ],
+      "unique_calibration_subsets": 3,
+      "resample_rows": 9000,
+      "background_budget_per_anchor": 6400
+    },
+    "MHEALTH_1": {
+      "evaluation_people": [
+        1,
+        3,
+        4,
+        10
+      ],
+      "calibration_people": [
+        6,
+        8
+      ],
+      "unique_calibration_subsets": 3,
+      "resample_rows": 9000,
+      "background_budget_per_anchor": 6400
+    },
+    "MHEALTH_2": {
+      "evaluation_people": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "calibration_people": [
+        2,
+        5
+      ],
+      "unique_calibration_subsets": 3,
+      "resample_rows": 9000,
+      "background_budget_per_anchor": 8400
+    },
+    "MHEALTH_3": {
+      "evaluation_people": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "calibration_people": [
+        4,
+        10
+      ],
+      "unique_calibration_subsets": 3,
+      "resample_rows": 9000,
+      "background_budget_per_anchor": 6400
+    }
+  },
+  "all_original_background_endpoints_have_equal_expected_sampling_weight": true,
+  "models_and_evaluation_participants_fixed": true,
+  "original_reference_results_reproduced": true,
+  "chinese_manuscript_unchanged": true,
+  "plan_sha256": "1eba1c335c2bcd85699bda90702317ea6349a5cf3822e1470cb22a81be2fccfd",
+  "analysis_code_sha256": "dfb2a78cf19e57111be2676268aa7f9f1cdb81f37a2662b612923d1bcee3b6a2",
+  "audit_code_sha256": "45f1939b8814d70a912e5107e3e3f53d54d0d70b3c2764a07dc5650c0e5062ce",
+  "outputs_sha256": {
+    "汇总.csv": "c23af1a1631df76525b286c0560ce58be0e09e4eed39f4bdd5a58e34f1859bde",
+    "组合.csv": "d16f89977c25b63b17019f80f1cd256dd46cb16e67df79e3edfd825de7872c6d"
+  },
+  "detailed_output_sha256": {
+    "MHEALTH_0_抽样.npz": "99520ca216b654e2069f5a61833a0c83b74177aa598d2b0dfd23378d2c4ed21e",
+    "MHEALTH_0_逐人.npz": "94e45764d0568e4027472d8b9f9e268f1e7b3c504b2015b3fa82b5acebc43664",
+    "MHEALTH_0_阈值.npz": "3224cf278c98a786837720354796ecd1096b494107e7c2bf71e2b819f0b1b040",
+    "MHEALTH_1_抽样.npz": "7a7d567be9f397a7e82ddb2e4215e2c11db429d91a8763cae4112e539ded0d2e",
+    "MHEALTH_1_逐人.npz": "7dd52556186069928ac7f76b724ed350c08dd4255eb64198390156782823c333",
+    "MHEALTH_1_阈值.npz": "aa61d3624de302f007002824bab7e57c519938b49276972d4cc7deb376e77feb",
+    "MHEALTH_2_抽样.npz": "130efc0af93a1f014287e80f6cf1c96a421034fae2ac8f2721db534aab5fefbf",
+    "MHEALTH_2_逐人.npz": "76a7abe20d9806929055afa7df35f031f90d90276e23f121660dfe0b7f6d4a65",
+    "MHEALTH_2_阈值.npz": "3e08e3bf71b2e150d2988702ad8f72565325653f1d9b365c482361bb9c688113",
+    "MHEALTH_3_抽样.npz": "d387345d9bd2df1b062b15d959a6882564b4282cae6c3ce7a2c05e6ff4bebae7",
+    "MHEALTH_3_逐人.npz": "dfe4042fa74c71c9c0735f2533b84c529896dd9a444204c8189dc8b88f6eff62",
+    "MHEALTH_3_阈值.npz": "ba71a4d5e6c79f881df0f2fa05bd1350ad7e5ac80e705d9eb7ea6c132c8c8ac0",
+    "REALDISP_0_抽样.npz": "9ee173d559a8ca4fdcc9e3ace1afb92f90974530d76f2fa4133fd3a4ef1e8687",
+    "REALDISP_0_逐人.npz": "408a58ac4edc5804cbbb6df83e4ffc33b84798bf3cd44d74e43b5c0edee3e514",
+    "REALDISP_0_阈值.npz": "2beb982d8c9e8f52c305bb4903f02e3b44068f1c9484ad9e81e55b0cd5cc731c",
+    "REALDISP_1_抽样.npz": "cb920cb6785cb135a8c567dc706926297bb53410dfb5eae67b726c9199e5c5de",
+    "REALDISP_1_逐人.npz": "f5a8f8f23aa1130eb4075aff6672e20fd965fe86e51928aeac131db22b22cb54",
+    "REALDISP_1_阈值.npz": "9d15b6377f2325f738a1c240998d02dcf9b38c5fd2be4af99ce1ae8ec6945d3c",
+    "REALDISP_2_抽样.npz": "9938352406ba66e30294843ddc79828b853fc4e31aa5402845f13d202b5b97ea",
+    "REALDISP_2_逐人.npz": "85470bee310553e623e66a6300ba7f49fcb78e7910ad614878068a1487e027e3",
+    "REALDISP_2_阈值.npz": "2edfead2385f82be4e9354c904edcbd476b5b31694f473cbb1b53830b16fa77f",
+    "REALDISP_3_抽样.npz": "c02c5a3d2f16444846e86c2926bfe8fbd83e30afb28cba6c509e604e77a688bc",
+    "REALDISP_3_逐人.npz": "69201d2cb89b32c4318fd1eebe4cb56a034448ad4d2c253636d3640addf3cb6c",
+    "REALDISP_3_阈值.npz": "9b56d5d2f973fcbc11178660665073e5f7f592d4f21bf8071ae3f1c60b6acc88"
+  }
+}

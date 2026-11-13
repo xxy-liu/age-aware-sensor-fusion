@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-12T12:37:09.843032+00:00",
+  "plan_sha256": "1eba1c335c2bcd85699bda90702317ea6349a5cf3822e1470cb22a81be2fccfd",
+  "code_sha256": "dfb2a78cf19e57111be2676268aa7f9f1cdb81f37a2662b612923d1bcee3b6a2",
+  "files_sha256": {
+    "MHEALTH_0_阈值.npz": "3224cf278c98a786837720354796ecd1096b494107e7c2bf71e2b819f0b1b040",
+    "MHEALTH_1_阈值.npz": "aa61d3624de302f007002824bab7e57c519938b49276972d4cc7deb376e77feb",
+    "MHEALTH_2_阈值.npz": "3e08e3bf71b2e150d2988702ad8f72565325653f1d9b365c482361bb9c688113",
+    "MHEALTH_3_阈值.npz": "ba71a4d5e6c79f881df0f2fa05bd1350ad7e5ac80e705d9eb7ea6c132c8c8ac0",
+    "REALDISP_0_阈值.npz": "2beb982d8c9e8f52c305bb4903f02e3b44068f1c9484ad9e81e55b0cd5cc731c",
+    "REALDISP_1_阈值.npz": "9d15b6377f2325f738a1c240998d02dcf9b38c5fd2be4af99ce1ae8ec6945d3c",
+    "REALDISP_2_阈值.npz": "2edfead2385f82be4e9354c904edcbd476b5b31694f473cbb1b53830b16fa77f",
+    "REALDISP_3_阈值.npz": "9b56d5d2f973fcbc11178660665073e5f7f592d4f21bf8071ae3f1c60b6acc88"
+  },
+  "design_sha256": {
+    "MHEALTH_0_设计.json": "68ca8244d4674f514c2e1802fba5fd9db956001a2807db0484aba968aa1d6ace",
+    "MHEALTH_1_设计.json": "96e8568182a8272be332250f544ffef96663925536934beb99eda1edcd9315cd",
+    "MHEALTH_2_设计.json": "8161d4360cfd00378c8b01b19834536541295e2f3d924ab08bc7aaec73d2a51f",
+    "MHEALTH_3_设计.json": "1d57c639099f550d217f7ffae4e9f22692d5c78446e7f1cfee57f4570702eb84",
+    "REALDISP_0_设计.json": "e7e18e0e74cfd3d70b4231115944ed097ddf5b49d8cdcb793a982be070a08c34",
+    "REALDISP_1_设计.json": "6c76bda6e3d5cc16b38d5ed1722331ddcd730900d8a8e6fd61f1dae54d7081e1",
+    "REALDISP_2_设计.json": "717558e30689859b628674746083b380e718494e948300aaab76eff2f50acc64",
+    "REALDISP_3_设计.json": "44e46a28b209099b90d2f2252b2893154d529b1a9aba5c21881d447c4da73c54"
+  },
+  "evaluation_numeric_access_before_anchor_repair": true,
+  "repair_sha256": "23ef4b9e8549c5e87a70e72141c74e10a2de3394f74dacfdce4e74ef61b31bd1"
+}

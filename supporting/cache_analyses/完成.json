@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-09T13:55:44.376111+00:00",
+  "status": "COMPLETE_AUDITED",
+  "counts": {
+    "prediction_changes": 1080,
+    "calibration_metrics": 12960,
+    "crossed_readouts": 8640
+  },
+  "outputs_sha256": {
+    "交叉读出.csv": "e5d8236e0510b445dc84d48214fc600e2b8116b47eff23350dd78e257eca6cac",
+    "交叉读出汇总.csv": "86e15edf4102e27fe60982349294e8ec0309b100e3e1fa984087c70a49c699bc",
+    "交叉读出逐人.csv": "396503349c9b2a3c60750b18fbbcb987f4275876a27227702654249e061aa906",
+    "校准迁移.csv": "2c38a1fae785d00caa257440e0d4400399f60a4f6225561bb79e9219f51f1873",
+    "校准迁移汇总.csv": "2267df8b26b241bb3474706be37921fc36251d4ed4a5fdb595a38eee2130413f",
+    "校准迁移逐人.csv": "90e4b25fe1cfaab7fd9919139469625dc6de2614ae792998a05e9b0142ac6b01",
+    "预测变化.csv": "db3b0bfcd8aa354636c2dc6b049375ee6443fb81a5bfae2e1d48d3f2ce3f1f76",
+    "预测变化汇总.csv": "1f7da8115d08524f2c03c4aebdc3d3f43c5ba1d2b2ff5b2df1c800fa5e14f4d0",
+    "预测变化逐人.csv": "28b357206d360687d3173ade9714ff87356b914837fb36908846f119044802e9",
+    "阈值.json": "ab062e37569ec167a570d6c06ce66fcb0ef15a989855e06e5ee27b67a02385ea",
+    "阈值冻结.json": "bc77c59e9306c87906c41248b8878a112d146b804e605a5c339230b4a930de07"
+  },
+  "computation_status": "COMPUTED_PENDING_AUDIT",
+  "audit_file": "原始核验.json",
+  "audit_sha256": "dca8d0e0d3c9bb7b020355ba601cdc9110312a8c8740b38b442cf4cfd2433961"
+}

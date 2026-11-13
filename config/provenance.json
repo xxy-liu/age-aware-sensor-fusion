@@ -1,0 +1,865 @@
+[
+  {
+    "file": "data/REALDISP_O_CNN/calibration_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9101.npz",
+    "sha256": "a85bc94e6e5455cbc8d20da2263f0f815138f0f14d6c5d193a6dac9ed5087762",
+    "bytes": 22543311
+  },
+  {
+    "file": "data/REALDISP_O_CNN/evaluation_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9101.npz",
+    "sha256": "f0c24a2c103e3f3ee1f26aceb29c9313a1489c0b18844ff20df8a4b42ad57d7b",
+    "bytes": 94627637
+  },
+  {
+    "file": "data/REALDISP_O_CNN/calibration_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9102.npz",
+    "sha256": "1ef6e7fe23b02616a98f2d53c7206a6faab65b3e78cd23b710837b1737e90fd1",
+    "bytes": 22647415
+  },
+  {
+    "file": "data/REALDISP_O_CNN/evaluation_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9102.npz",
+    "sha256": "50cec9bf1a87bdefaeba0a7ab85375f9b0f47b35ee7c236919f995cc68e5a14f",
+    "bytes": 94338140
+  },
+  {
+    "file": "data/REALDISP_O_CNN/calibration_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_CNN_9103.npz",
+    "sha256": "75889bf20447d00a8e07a69ec05f59f0e81f99d5c8b9e3e1e3d19c0973248b19",
+    "bytes": 22590192
+  },
+  {
+    "file": "data/REALDISP_O_CNN/evaluation_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_CNN_9103.npz",
+    "sha256": "e8d175db324bdc1810288b442ca6614df2aa7bba39465cb2cef05d150d7acebe",
+    "bytes": 94122943
+  },
+  {
+    "file": "reference/REALDISP_O_CNN_metrics.csv",
+    "source": "03_实验记录/收尾实验/结果.csv",
+    "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_O_CNN_curves.csv",
+    "source": "03_实验记录/收尾实验/曲线.csv",
+    "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/calibration_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9101.npz",
+    "sha256": "d6849eddf82c599c63f6d320664dbb47737974579229f80c7574094dcc3054d1",
+    "bytes": 14929556
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/evaluation_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9101.npz",
+    "sha256": "74d4443a1643e68e4f3478004799fb210f3ca542d41d4a6d65b9c3e94494aa30",
+    "bytes": 61221400
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/calibration_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9102.npz",
+    "sha256": "8a3d5a2e5a2a5bfc8b0f88012a5f273cb1d5ba15462f7ba41438f69207d7d209",
+    "bytes": 14955233
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/evaluation_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9102.npz",
+    "sha256": "c0d7fcef9445fafe9dece92d1a51b0baf6df23affc942380935c289ef8ea2f4f",
+    "bytes": 61353033
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/calibration_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_LSTM_9103.npz",
+    "sha256": "dba897e001076d7c9cc9cb230076c02a7ea159f934ee20e87c22f0b1ef835782",
+    "bytes": 14949327
+  },
+  {
+    "file": "data/REALDISP_O_LSTM/evaluation_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_LSTM_9103.npz",
+    "sha256": "9a337f1e769875a9f7326050e281527f4e98e9658b8271293b7211d56477ecaa",
+    "bytes": 61222577
+  },
+  {
+    "file": "reference/REALDISP_O_LSTM_metrics.csv",
+    "source": "03_实验记录/收尾实验/结果.csv",
+    "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_O_LSTM_curves.csv",
+    "source": "03_实验记录/收尾实验/曲线.csv",
+    "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/REALDISP_O_DCL/calibration_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9101.npz",
+    "sha256": "3b4d4f3f80513712562da5d79203d7eda9afb2307ede4352cdac9a9abd433a70",
+    "bytes": 10547468
+  },
+  {
+    "file": "data/REALDISP_O_DCL/evaluation_9101.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9101.npz",
+    "sha256": "51d1219f15c4ae63b89cbfb3ae7c89136c2f9e4d026976263bd0022de763c035",
+    "bytes": 44520669
+  },
+  {
+    "file": "data/REALDISP_O_DCL/calibration_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9102.npz",
+    "sha256": "87c4b0441fb16d868381ee2ddf669821b3521aca605a32c00093343af275762b",
+    "bytes": 10447681
+  },
+  {
+    "file": "data/REALDISP_O_DCL/evaluation_9102.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9102.npz",
+    "sha256": "033fb319aa526a2cbe6cec7bd7f72bdfba022bfa240a9b4dc72b1d690bf9d9ce",
+    "bytes": 44190413
+  },
+  {
+    "file": "data/REALDISP_O_DCL/calibration_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/calibration_REALDISP_DCL_9103.npz",
+    "sha256": "4e26f7932f6815105b0274078272fae2cae1b5a956c2c95811dcff0b09c1aba4",
+    "bytes": 10458104
+  },
+  {
+    "file": "data/REALDISP_O_DCL/evaluation_9103.npz",
+    "source": "03_实验记录/收尾实验/预测/evaluate_REALDISP_DCL_9103.npz",
+    "sha256": "6f7371db947d9799e3774a77609ed559d221cf96bdf47cd9e7efa9047466719c",
+    "bytes": 44267136
+  },
+  {
+    "file": "reference/REALDISP_O_DCL_metrics.csv",
+    "source": "03_实验记录/收尾实验/结果.csv",
+    "source_sha256": "fee53fb7a42ffcbd28fb02ee5a347f99eb81e0d2f9c5dfe2deba0a05eb995faa",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_O_DCL_curves.csv",
+    "source": "03_实验记录/收尾实验/曲线.csv",
+    "source_sha256": "e77fa691768282b77e5d729ce816677b39a3c7c90e56fefe9970d3b136713cb2",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/REALDISP_1_CNN/calibration_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9101.npz",
+    "sha256": "532606b76ba53234e1237e8a8fcb4ecbc137b9d61de32885b16852a607e7dbf6",
+    "bytes": 8018594
+  },
+  {
+    "file": "data/REALDISP_1_CNN/evaluation_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9101.npz",
+    "sha256": "74529df5c7f4b0b55f3349f766c442c0b69a4e48112100cf76ee636b9e752900",
+    "bytes": 22024835
+  },
+  {
+    "file": "data/REALDISP_1_CNN/calibration_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9102.npz",
+    "sha256": "96d678da8705187308f72c607a96a27711714a2d2a182e10fdc3fd3d0717b3b3",
+    "bytes": 8051910
+  },
+  {
+    "file": "data/REALDISP_1_CNN/evaluation_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9102.npz",
+    "sha256": "a99069aa4645256b4959ec030e1037fc25b7837e89abca64aee49f9f746a6bcb",
+    "bytes": 22091601
+  },
+  {
+    "file": "data/REALDISP_1_CNN/calibration_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/calibration_9103.npz",
+    "sha256": "21c778e1b68dc5a3b4da484bbd77a5fb946dece62257342787f46ecf71a3d5d3",
+    "bytes": 8047190
+  },
+  {
+    "file": "data/REALDISP_1_CNN/evaluation_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/预测/test_9103.npz",
+    "sha256": "1bbcb9587f2c324fb6f0aa19575dc7e982537bc53ea1020a590d48eb51470810",
+    "bytes": 21959622
+  },
+  {
+    "file": "reference/REALDISP_1_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/结果.csv",
+    "source_sha256": "45441727a7321b33be2007bd7b0a44040e108363a11ff19dd306bb22a4ad8b58",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_1_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分1/曲线.csv",
+    "source_sha256": "54f302e0990b7da0b4e1d2874b1f48ff789f7d39b090a4c2429e06fa9b264983",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/REALDISP_2_CNN/calibration_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9101.npz",
+    "sha256": "7c740a901a34111fe9a7c809b463dbbd40d760b2ed932479e0d051a237439fb0",
+    "bytes": 16299350
+  },
+  {
+    "file": "data/REALDISP_2_CNN/evaluation_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9101.npz",
+    "sha256": "a9f23746fade124c0426f4841749c1d4fad1f97f5f6cef959b445c7295ef1464",
+    "bytes": 20880711
+  },
+  {
+    "file": "data/REALDISP_2_CNN/calibration_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9102.npz",
+    "sha256": "0c35f448856ce49069afa165ade90a106c403a6313454405f865a845179d0b24",
+    "bytes": 16302399
+  },
+  {
+    "file": "data/REALDISP_2_CNN/evaluation_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9102.npz",
+    "sha256": "71445b4f3eb96105e2b8c860224b954249559a664aaf6ec9439a2aec573dc4b6",
+    "bytes": 20912705
+  },
+  {
+    "file": "data/REALDISP_2_CNN/calibration_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/calibration_9103.npz",
+    "sha256": "e649b693c438d229aafc7b66fb7bb3b33761d7318f9c1524a3285dde5633b991",
+    "bytes": 16109843
+  },
+  {
+    "file": "data/REALDISP_2_CNN/evaluation_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/预测/test_9103.npz",
+    "sha256": "b1d0f45ca9d305b772d402ee0a09e3794a61bd004e76f269424d32f6b8d4fb8f",
+    "bytes": 20749261
+  },
+  {
+    "file": "reference/REALDISP_2_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/结果.csv",
+    "source_sha256": "f3a6387307e2c8bc12c42804750d79148cfe012d423c4ac82752b9a75b5e7af1",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_2_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分2/曲线.csv",
+    "source_sha256": "85d797a98d953c3119e1fb904da34e668086a5f3d0d8ffcba4cd9b0e2103b64b",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/REALDISP_3_CNN/calibration_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9101.npz",
+    "sha256": "b8f876e1ed5c9d553197089ab92296928d3a0d901bb1dadaab6c4f63dab99f2d",
+    "bytes": 8601419
+  },
+  {
+    "file": "data/REALDISP_3_CNN/evaluation_9101.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9101.npz",
+    "sha256": "3527b9f04c9efad61af8b5e54ebce5f58109a0070d2d213a16bc1c7e8859b9c4",
+    "bytes": 28755901
+  },
+  {
+    "file": "data/REALDISP_3_CNN/calibration_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9102.npz",
+    "sha256": "93b4fa0192c70e64d275d788e68171082f2fea87df8ba58b2955563575a42a3f",
+    "bytes": 8616277
+  },
+  {
+    "file": "data/REALDISP_3_CNN/evaluation_9102.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9102.npz",
+    "sha256": "433abd49be8ee09e5c89a46d815211b8b3f79ac6c87aaf979a1a490920db6983",
+    "bytes": 28744450
+  },
+  {
+    "file": "data/REALDISP_3_CNN/calibration_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/calibration_9103.npz",
+    "sha256": "e273ab7dfd67f96a1bb15a3ac77a0204c8667aafc959f3be9afe267d7dd56896",
+    "bytes": 8546317
+  },
+  {
+    "file": "data/REALDISP_3_CNN/evaluation_9103.npz",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/预测/test_9103.npz",
+    "sha256": "ea5812e8dead0b6920fe7709f500319f5116029860574810c0e8c05fa6fb2985",
+    "bytes": 28523874
+  },
+  {
+    "file": "reference/REALDISP_3_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/结果.csv",
+    "source_sha256": "42709bbc39da422bd6c66103f4d656086d07c5b99d1b2c16318a8df0acbcf592",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/REALDISP_3_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/REALDISP/划分3/曲线.csv",
+    "source_sha256": "01366b35159194728e42ae92055235da8ee57eb3f3938180c88b59755cb6f245",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/calibration_9301.npz",
+    "source": "03_实验记录/前瞻验证/预测/calibration_9301.npz",
+    "sha256": "4c02d0e94ccc676c685175f9e844bcd443e11c415725297f863079dc207855cb",
+    "bytes": 7487881
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/evaluation_9301.npz",
+    "source": "03_实验记录/前瞻验证/预测/test_9301.npz",
+    "sha256": "7e0f6d0a92fd51ae34d2b482c6de30488d1627976b55caae9730fc153a1c821f",
+    "bytes": 38231476
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/calibration_9302.npz",
+    "source": "03_实验记录/前瞻验证/预测/calibration_9302.npz",
+    "sha256": "4116e00e2f36568a6d11a5c668581819a6194933f5b3f7204fe7ffe3b771725e",
+    "bytes": 7514330
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/evaluation_9302.npz",
+    "source": "03_实验记录/前瞻验证/预测/test_9302.npz",
+    "sha256": "f7c3de3f5351f3aa9a23e331d61608778bfc32ae0611e335f649d1c62e417143",
+    "bytes": 38237784
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/calibration_9303.npz",
+    "source": "03_实验记录/前瞻验证/预测/calibration_9303.npz",
+    "sha256": "67b2f1717c417f1ff5034bcd62b91d1fc655174af4756aa3cd88e0d784138bac",
+    "bytes": 7496239
+  },
+  {
+    "file": "data/MHEALTH_O_CNN/evaluation_9303.npz",
+    "source": "03_实验记录/前瞻验证/预测/test_9303.npz",
+    "sha256": "a4781b63236ee77582138c5c4bd265a5a0e52802b996ba379566dd5ce0443fb0",
+    "bytes": 38218161
+  },
+  {
+    "file": "reference/MHEALTH_O_CNN_metrics.csv",
+    "source": "03_实验记录/前瞻验证/结果.csv",
+    "source_sha256": "2463576148efb2f0a94e44e172eee6033cc23291b1b16a7718ba9dc89d11c03a",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/MHEALTH_O_CNN_curves.csv",
+    "source": "03_实验记录/前瞻验证/曲线.csv",
+    "source_sha256": "56c9ecec1fcc22b0476d744908aa3fef7c7754d497a541ad3bbbe5eda3e190d8",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/calibration_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9301.npz",
+    "sha256": "fc68290e47ee43998489767d593fbcc115836869b4ba15f7d214ae3f2998b19c",
+    "bytes": 5749608
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/evaluation_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9301.npz",
+    "sha256": "5325b1ac77c346d91864ce2f6a725d6b1515d615f05dbdaa5589f2c8d74507fa",
+    "bytes": 12556340
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/calibration_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9302.npz",
+    "sha256": "6892c4ad0f8180cb96a1388b1caf1a65f9dc35bc7baf737b562b81b170c9f056",
+    "bytes": 5756869
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/evaluation_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9302.npz",
+    "sha256": "6365caf1176b564577c64a27c72cc753d7a0a60ce1f8ebfe8bf1714a14c9922e",
+    "bytes": 12628814
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/calibration_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/calibration_9303.npz",
+    "sha256": "3ab0f65adb150265b99755a54e60582ee6785d8baceae4656a932eb664d8d76c",
+    "bytes": 5726886
+  },
+  {
+    "file": "data/MHEALTH_1_CNN/evaluation_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/预测/test_9303.npz",
+    "sha256": "b97eb6bf34ba1d88d316d0b4bad20288a4c017c4aed49181b28c65f5472a59c3",
+    "bytes": 12511615
+  },
+  {
+    "file": "reference/MHEALTH_1_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/结果.csv",
+    "source_sha256": "c7fa4f04c2ac65885452781a07b4720ce028c2ad72642e8f6b4f532309cc5508",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/MHEALTH_1_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分1/曲线.csv",
+    "source_sha256": "81a20f9e35b857b7bcd786eeabfb92deb09fc435d7871a856cd4c0fe8641a7aa",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/calibration_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9301.npz",
+    "sha256": "185eaeaa019586e7374721e6788c3403907ab9b32653a89aa78af906739dbf4e",
+    "bytes": 6288709
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/evaluation_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9301.npz",
+    "sha256": "7855e3c0972696e1ef18900302ab14afb4411481d0ca0f39ca55ce6c086975d2",
+    "bytes": 11716790
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/calibration_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9302.npz",
+    "sha256": "1bc858ea8accf3f831ae3c6e07e86066261558ea2576ce139dd59c982934233c",
+    "bytes": 6310371
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/evaluation_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9302.npz",
+    "sha256": "8381e7721ee773edd435c8a02a1e6745a50735bcc16179a196082c18ea41db13",
+    "bytes": 11752202
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/calibration_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/calibration_9303.npz",
+    "sha256": "1320fb1d30bbee15066990a7cf46418fe1dbfeb0660bd83d09368b51b0a970d0",
+    "bytes": 6308357
+  },
+  {
+    "file": "data/MHEALTH_2_CNN/evaluation_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/预测/test_9303.npz",
+    "sha256": "b0599c8fabede6b5febb95936d8e0ea17239b757559d467983487946334d90a6",
+    "bytes": 11724701
+  },
+  {
+    "file": "reference/MHEALTH_2_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/结果.csv",
+    "source_sha256": "b3a6b51965e3cb3946ae8213d512867d26e108a1495946cb58a89a4c33189c7b",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/MHEALTH_2_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分2/曲线.csv",
+    "source_sha256": "9896901c7aa977fb6733ded3f8ce6e520df7624a3ffc13f581d93251d6ff26bf",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/calibration_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9301.npz",
+    "sha256": "91d65f4f74ec2e4f2bcf0200b1cf35bdaf48c9102934beadbe976f0abd4332ce",
+    "bytes": 5431806
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/evaluation_9301.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9301.npz",
+    "sha256": "b7bc99197459e2057cf1ec1c80aa6482fc66e91d1fec4dfdb43670acfc2345eb",
+    "bytes": 13484556
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/calibration_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9302.npz",
+    "sha256": "b9fea72758e6f8a8264b883af7565e1a5c275eb0fe402a5b316fc670691e0db9",
+    "bytes": 5372187
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/evaluation_9302.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9302.npz",
+    "sha256": "9818ec9ceef16f2ed05777f378d1c51ae93bb9398b516bd8dd3613acab284fa9",
+    "bytes": 13341545
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/calibration_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/calibration_9303.npz",
+    "sha256": "e4a953df9db7a995f71468ba5f39ca964359519a6f97b64a1245e42285d91934",
+    "bytes": 5462570
+  },
+  {
+    "file": "data/MHEALTH_3_CNN/evaluation_9303.npz",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/预测/test_9303.npz",
+    "sha256": "a1b4e3e19822c5ee72be16d924870d6977fd301396c2de4f3a349b6df8578af9",
+    "bytes": 13551041
+  },
+  {
+    "file": "reference/MHEALTH_3_CNN_metrics.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/结果.csv",
+    "source_sha256": "944f1b58776f18bd5e3bde3c7e7930482970a8c950d3113e6676b8d42a63f213",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "reference/MHEALTH_3_CNN_curves.csv",
+    "source": "03_实验记录/人群复核/MHEALTH/划分3/曲线.csv",
+    "source_sha256": "0b2b21ab5322b37f548e8426a8f52991199073be3d0572156ab5eb643fde4fe3",
+    "transformation": "CSV selection by dataset and architecture; numeric text retained."
+  },
+  {
+    "file": "supporting/cache_analyses/交叉读出.csv",
+    "source": "outputs/补充分析/交叉读出.csv",
+    "sha256": "e5d8236e0510b445dc84d48214fc600e2b8116b47eff23350dd78e257eca6cac",
+    "bytes": 1653614
+  },
+  {
+    "file": "supporting/cache_analyses/交叉读出汇总.csv",
+    "source": "outputs/补充分析/交叉读出汇总.csv",
+    "sha256": "86e15edf4102e27fe60982349294e8ec0309b100e3e1fa984087c70a49c699bc",
+    "bytes": 267656
+  },
+  {
+    "file": "supporting/cache_analyses/交叉读出逐人.csv",
+    "source": "outputs/补充分析/交叉读出逐人.csv",
+    "sha256": "396503349c9b2a3c60750b18fbbcb987f4275876a27227702654249e061aa906",
+    "bytes": 242361
+  },
+  {
+    "file": "supporting/cache_analyses/修复记录.json",
+    "source": "outputs/补充分析/修复记录.json",
+    "sha256": "c77f550f75c7b88567b9c4569a08964046fcef5f59c2e3356062368150432b37",
+    "bytes": 693
+  },
+  {
+    "file": "supporting/cache_analyses/分析.py",
+    "source": "outputs/补充分析/分析.py",
+    "sha256": "cd4854aefdf21f3a0ff818586ba60f2ef0d5db8f36a1384665b8e3896040a164",
+    "bytes": 14834,
+    "source_sha256": "d1038a97dfe09ac2481c93e2255c511a195d302e1544eecf7a99b5635adca47d",
+    "source_bytes": 14810,
+    "transformation": "Documentation revised; numerical expressions and study-design values unchanged. Source versions and checks are recorded in revision.json."
+  },
+  {
+    "file": "supporting/cache_analyses/完成.json",
+    "source": "outputs/补充分析/完成.json",
+    "sha256": "ee1935ee5977fa2345c44cea6267500de26ea7cc3bbb1d732ff1dbed511cef5d",
+    "bytes": 1462,
+    "source_sha256": "c5d5a05299e0dd1816100343921acdce613f34ee645df79dee28c64e0f37f3b3",
+    "source_bytes": 1456,
+    "transformation": "Audit descriptions and source references revised; numerical results and original source checksums unchanged."
+  },
+  {
+    "file": "supporting/cache_analyses/方案.json",
+    "source": "outputs/补充分析/方案.json",
+    "sha256": "35698b117377ea26e1a6f263ee7a3e0d239a88d615bea29654e55f99f1dfc8e2",
+    "bytes": 7386,
+    "source_sha256": "14dd3e064791a0e0530c419a313384ee0060f770b60d2457a9ca3b68e5be05bb",
+    "source_bytes": 7357,
+    "transformation": "Documentation revised; numerical expressions and study-design values unchanged. Source versions and checks are recorded in revision.json."
+  },
+  {
+    "file": "supporting/cache_analyses/校准迁移.csv",
+    "source": "outputs/补充分析/校准迁移.csv",
+    "sha256": "2c38a1fae785d00caa257440e0d4400399f60a4f6225561bb79e9219f51f1873",
+    "bytes": 2566807
+  },
+  {
+    "file": "supporting/cache_analyses/校准迁移汇总.csv",
+    "source": "outputs/补充分析/校准迁移汇总.csv",
+    "sha256": "2267df8b26b241bb3474706be37921fc36251d4ed4a5fdb595a38eee2130413f",
+    "bytes": 418604
+  },
+  {
+    "file": "supporting/cache_analyses/校准迁移逐人.csv",
+    "source": "outputs/补充分析/校准迁移逐人.csv",
+    "sha256": "90e4b25fe1cfaab7fd9919139469625dc6de2614ae792998a05e9b0142ac6b01",
+    "bytes": 377843
+  },
+  {
+    "file": "supporting/cache_analyses/核验.json",
+    "source": "outputs/补充分析/核验.json",
+    "sha256": "2441c6d9b23d464d63f9aad99b6a705414a92f62afea06572be30054aa402918",
+    "bytes": 4269,
+    "source_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+    "source_bytes": 3669,
+    "transformation": "Audit descriptions and source references revised; numerical results and original source checksums unchanged."
+  },
+  {
+    "file": "supporting/cache_analyses/核验.py",
+    "source": "outputs/补充分析/核验.py",
+    "sha256": "e6d2ef7972d759175c18e12ae16bd9e6e20646a52cfb8b3fe1bd922e0d6cf150",
+    "bytes": 11504,
+    "source_sha256": "f9598900eb08c7a32d34f38c45ffaf9f965e5597b2274c4cee393cbe001b365c",
+    "source_bytes": 11500,
+    "transformation": "Editorial scope/record-location update; numerical checks and contribution facts preserved. See revision.json and supporting/cache_analyses/原始核验.json."
+  },
+  {
+    "file": "supporting/cache_analyses/阈值.json",
+    "source": "outputs/补充分析/阈值.json",
+    "sha256": "ab062e37569ec167a570d6c06ce66fcb0ef15a989855e06e5ee27b67a02385ea",
+    "bytes": 42420
+  },
+  {
+    "file": "supporting/cache_analyses/阈值冻结.json",
+    "source": "outputs/补充分析/阈值冻结.json",
+    "sha256": "bc77c59e9306c87906c41248b8878a112d146b804e605a5c339230b4a930de07",
+    "bytes": 374
+  },
+  {
+    "file": "supporting/cache_analyses/预测变化.csv",
+    "source": "outputs/补充分析/预测变化.csv",
+    "sha256": "db3b0bfcd8aa354636c2dc6b049375ee6443fb81a5bfae2e1d48d3f2ce3f1f76",
+    "bytes": 482118
+  },
+  {
+    "file": "supporting/cache_analyses/预测变化汇总.csv",
+    "source": "outputs/补充分析/预测变化汇总.csv",
+    "sha256": "1f7da8115d08524f2c03c4aebdc3d3f43c5ba1d2b2ff5b2df1c800fa5e14f4d0",
+    "bytes": 110474
+  },
+  {
+    "file": "supporting/cache_analyses/预测变化逐人.csv",
+    "source": "outputs/补充分析/预测变化逐人.csv",
+    "sha256": "28b357206d360687d3173ade9714ff87356b914837fb36908846f119044802e9",
+    "bytes": 80748
+  },
+  {
+    "file": "supporting/calibration_resampling/修复记录.json",
+    "source": "outputs/校准重采样/修复记录.json",
+    "sha256": "23ef4b9e8549c5e87a70e72141c74e10a2de3394f74dacfdce4e74ef61b31bd1",
+    "bytes": 3479
+  },
+  {
+    "file": "supporting/calibration_resampling/分析.py",
+    "source": "outputs/校准重采样/分析.py",
+    "sha256": "df2f97c5703b9cc3d98ce783934b4fc0c6d4f3ee9224363f406f2747cf5aec7d",
+    "bytes": 21985,
+    "source_sha256": "dfb2a78cf19e57111be2676268aa7f9f1cdb81f37a2662b612923d1bcee3b6a2",
+    "source_bytes": 22005,
+    "transformation": "Documentation revised; numerical expressions and study-design values unchanged. Source versions and checks are recorded in revision.json."
+  },
+  {
+    "file": "supporting/calibration_resampling/完成.json",
+    "source": "outputs/校准重采样/完成.json",
+    "sha256": "c113065b7f9652021d141b1c227ebeae06c79d59453a33e1e1c6f4a4cf392616",
+    "bytes": 2734
+  },
+  {
+    "file": "supporting/calibration_resampling/方案.json",
+    "source": "outputs/校准重采样/方案.json",
+    "sha256": "9ee583142c46f45f17eaa5a5dd88c7408f20a2d2d509f90edaa407f9a7366cc2",
+    "bytes": 18856,
+    "source_sha256": "1eba1c335c2bcd85699bda90702317ea6349a5cf3822e1470cb22a81be2fccfd",
+    "source_bytes": 18838,
+    "transformation": "Documentation revised; numerical expressions and study-design values unchanged. Source versions and checks are recorded in revision.json."
+  },
+  {
+    "file": "supporting/calibration_resampling/核验.json",
+    "source": "outputs/校准重采样/核验.json",
+    "sha256": "0f84f2f3f2d1eb5196b9ee7270d4b2172b01fdbe237e30e92cc78f6f39359e71",
+    "bytes": 6237
+  },
+  {
+    "file": "supporting/calibration_resampling/核验.py",
+    "source": "outputs/校准重采样/核验.py",
+    "sha256": "53441d745162de69f4def8822f63eed9448cc9f9d4a7fc6c1b35f6963e5ee403",
+    "bytes": 12997,
+    "source_sha256": "45f1939b8814d70a912e5107e3e3f53d54d0d70b3c2764a07dc5650c0e5062ce",
+    "source_bytes": 12997,
+    "transformation": "Documentation revised; numerical expressions and study-design values unchanged. Source versions and checks are recorded in revision.json."
+  },
+  {
+    "file": "supporting/calibration_resampling/汇总.csv",
+    "source": "outputs/校准重采样/汇总.csv",
+    "sha256": "c23af1a1631df76525b286c0560ce58be0e09e4eed39f4bdd5a58e34f1859bde",
+    "bytes": 530443
+  },
+  {
+    "file": "supporting/calibration_resampling/组合.csv",
+    "source": "outputs/校准重采样/组合.csv",
+    "sha256": "d16f89977c25b63b17019f80f1cd256dd46cb16e67df79e3edfd825de7872c6d",
+    "bytes": 1076077
+  },
+  {
+    "file": "supporting/calibration_resampling/阈值冻结.json",
+    "source": "outputs/校准重采样/阈值冻结.json",
+    "sha256": "05bc48cbe7f39a10bce91c288a2791ec7c432e401b7043e45247e89448d98848",
+    "bytes": 1991
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_0_抽样.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_0_抽样.npz",
+    "sha256": "99520ca216b654e2069f5a61833a0c83b74177aa598d2b0dfd23378d2c4ed21e",
+    "bytes": 694993
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_0_设计.json",
+    "source": "outputs/校准重采样/缓存/MHEALTH_0_设计.json",
+    "sha256": "68ca8244d4674f514c2e1802fba5fd9db956001a2807db0484aba968aa1d6ace",
+    "bytes": 1712
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_0_逐人.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_0_逐人.npz",
+    "sha256": "94e45764d0568e4027472d8b9f9e268f1e7b3c504b2015b3fa82b5acebc43664",
+    "bytes": 11893780
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_0_阈值.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_0_阈值.npz",
+    "sha256": "3224cf278c98a786837720354796ecd1096b494107e7c2bf71e2b819f0b1b040",
+    "bytes": 8137671
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_1_抽样.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_1_抽样.npz",
+    "sha256": "7a7d567be9f397a7e82ddb2e4215e2c11db429d91a8763cae4112e539ded0d2e",
+    "bytes": 696242
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_1_设计.json",
+    "source": "outputs/校准重采样/缓存/MHEALTH_1_设计.json",
+    "sha256": "96e8568182a8272be332250f544ffef96663925536934beb99eda1edcd9315cd",
+    "bytes": 1704
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_1_逐人.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_1_逐人.npz",
+    "sha256": "7dd52556186069928ac7f76b724ed350c08dd4255eb64198390156782823c333",
+    "bytes": 11830532
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_1_阈值.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_1_阈值.npz",
+    "sha256": "aa61d3624de302f007002824bab7e57c519938b49276972d4cc7deb376e77feb",
+    "bytes": 8253547
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_2_抽样.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_2_抽样.npz",
+    "sha256": "130efc0af93a1f014287e80f6cf1c96a421034fae2ac8f2721db534aab5fefbf",
+    "bytes": 897172
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_2_设计.json",
+    "source": "outputs/校准重采样/缓存/MHEALTH_2_设计.json",
+    "sha256": "8161d4360cfd00378c8b01b19834536541295e2f3d924ab08bc7aaec73d2a51f",
+    "bytes": 1704
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_2_逐人.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_2_逐人.npz",
+    "sha256": "76a7abe20d9806929055afa7df35f031f90d90276e23f121660dfe0b7f6d4a65",
+    "bytes": 11773397
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_2_阈值.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_2_阈值.npz",
+    "sha256": "3e08e3bf71b2e150d2988702ad8f72565325653f1d9b365c482361bb9c688113",
+    "bytes": 8293395
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_3_抽样.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_3_抽样.npz",
+    "sha256": "d387345d9bd2df1b062b15d959a6882564b4282cae6c3ce7a2c05e6ff4bebae7",
+    "bytes": 679058
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_3_设计.json",
+    "source": "outputs/校准重采样/缓存/MHEALTH_3_设计.json",
+    "sha256": "1d57c639099f550d217f7ffae4e9f22692d5c78446e7f1cfee57f4570702eb84",
+    "bytes": 1712
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_3_逐人.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_3_逐人.npz",
+    "sha256": "dfe4042fa74c71c9c0735f2533b84c529896dd9a444204c8189dc8b88f6eff62",
+    "bytes": 11308089
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/MHEALTH_3_阈值.npz",
+    "source": "outputs/校准重采样/缓存/MHEALTH_3_阈值.npz",
+    "sha256": "ba71a4d5e6c79f881df0f2fa05bd1350ad7e5ac80e705d9eb7ea6c132c8c8ac0",
+    "bytes": 8287814
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_0_抽样.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_0_抽样.npz",
+    "sha256": "9ee173d559a8ca4fdcc9e3ace1afb92f90974530d76f2fa4133fd3a4ef1e8687",
+    "bytes": 1511058
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_0_设计.json",
+    "source": "outputs/校准重采样/缓存/REALDISP_0_设计.json",
+    "sha256": "e7e18e0e74cfd3d70b4231115944ed097ddf5b49d8cdcb793a982be070a08c34",
+    "bytes": 4123
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_0_逐人.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_0_逐人.npz",
+    "sha256": "408a58ac4edc5804cbbb6df83e4ffc33b84798bf3cd44d74e43b5c0edee3e514",
+    "bytes": 42327372
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_0_阈值.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_0_阈值.npz",
+    "sha256": "2beb982d8c9e8f52c305bb4903f02e3b44068f1c9484ad9e81e55b0cd5cc731c",
+    "bytes": 18996851
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_1_抽样.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_1_抽样.npz",
+    "sha256": "cb920cb6785cb135a8c567dc706926297bb53410dfb5eae67b726c9199e5c5de",
+    "bytes": 624637
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_1_设计.json",
+    "source": "outputs/校准重采样/缓存/REALDISP_1_设计.json",
+    "sha256": "6c76bda6e3d5cc16b38d5ed1722331ddcd730900d8a8e6fd61f1dae54d7081e1",
+    "bytes": 4123
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_1_逐人.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_1_逐人.npz",
+    "sha256": "f5a8f8f23aa1130eb4075aff6672e20fd965fe86e51928aeac131db22b22cb54",
+    "bytes": 41935701
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_1_阈值.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_1_阈值.npz",
+    "sha256": "9d15b6377f2325f738a1c240998d02dcf9b38c5fd2be4af99ce1ae8ec6945d3c",
+    "bytes": 19156971
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_2_抽样.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_2_抽样.npz",
+    "sha256": "9938352406ba66e30294843ddc79828b853fc4e31aa5402845f13d202b5b97ea",
+    "bytes": 2641307
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_2_设计.json",
+    "source": "outputs/校准重采样/缓存/REALDISP_2_设计.json",
+    "sha256": "717558e30689859b628674746083b380e718494e948300aaab76eff2f50acc64",
+    "bytes": 4107
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_2_逐人.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_2_逐人.npz",
+    "sha256": "85470bee310553e623e66a6300ba7f49fcb78e7910ad614878068a1487e027e3",
+    "bytes": 41557966
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_2_阈值.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_2_阈值.npz",
+    "sha256": "2edfead2385f82be4e9354c904edcbd476b5b31694f473cbb1b53830b16fa77f",
+    "bytes": 19301848
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_3_抽样.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_3_抽样.npz",
+    "sha256": "c02c5a3d2f16444846e86c2926bfe8fbd83e30afb28cba6c509e604e77a688bc",
+    "bytes": 653064
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_3_设计.json",
+    "source": "outputs/校准重采样/缓存/REALDISP_3_设计.json",
+    "sha256": "44e46a28b209099b90d2f2252b2893154d529b1a9aba5c21881d447c4da73c54",
+    "bytes": 4107
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_3_逐人.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_3_逐人.npz",
+    "sha256": "69201d2cb89b32c4318fd1eebe4cb56a034448ad4d2c253636d3640addf3cb6c",
+    "bytes": 42135436
+  },
+  {
+    "file": "supporting/calibration_resampling/缓存/REALDISP_3_阈值.npz",
+    "source": "outputs/校准重采样/缓存/REALDISP_3_阈值.npz",
+    "sha256": "9b56d5d2f973fcbc11178660665073e5f7f592d4f21bf8071ae3f1c60b6acc88",
+    "bytes": 18904366
+  },
+  {
+    "file": "supporting/cache_analyses/原始核验.json",
+    "source": "outputs/补充分析/核验.json",
+    "sha256": "dca8d0e0d3c9bb7b020355ba601cdc9110312a8c8740b38b442cf4cfd2433961",
+    "bytes": 4075,
+    "role": "Published numerical audit record with a revised scope description.",
+    "source_sha256": "41adcacb3eab80c0bc904320bfcb01a6c5e181360b8e09ef12f5d98139ea0d4c",
+    "source_bytes": 3669,
+    "transformation": "Audit descriptions and source references revised; numerical results and original source checksums unchanged.",
+    "source_record": "revision.json#/original_audit_source"
+  }
+]

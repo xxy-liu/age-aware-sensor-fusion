@@ -1,0 +1,4 @@
+# Tested with CPython 3.10.19 (CPU); compatible install target: Python 3.10-3.12.
+numpy==1.26.4
+# Used by supplement.py; the Table II example needs only NumPy.
+pandas==2.3.3

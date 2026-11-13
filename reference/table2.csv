@@ -1,0 +1,7 @@
+dataset,readout,macro_f1,car,fpr
+REALDISP,Native,49.56,52.48,5.69
+REALDISP,Zero,48.89,50.89,5.00
+REALDISP,Zero+match,49.60,52.82,5.73
+MHEALTH,Native,43.85,39.68,7.67
+MHEALTH,Zero,43.71,39.53,7.64
+MHEALTH,Zero+match,43.88,39.74,7.69
